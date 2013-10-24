@@ -22,6 +22,7 @@
     "url": "https://github.com/azat-co/expressworks/issues"
   },
   "bin": "./expressworks.js",
+  "preferGlobal": true,
   "dependencies": {
     "workshopper": "~0.3.3",
     "express": "~3.4.3",
