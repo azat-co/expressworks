@@ -6,7 +6,7 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 ## Installation
 
 
-Recommended global intallation:
+Recommended global installation:
 
 ```bash
 $ npm install -g expressworks
