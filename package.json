@@ -24,6 +24,7 @@
   "dependencies": {
     "workshopper": "~0.3.3",
     "express": "~3.4.3",
-    "superagent": "~0.15.7"
+    "superagent": "~0.15.7",
+    "jade": "~0.35.0"
   }
 }

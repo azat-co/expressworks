@@ -1,0 +1,29 @@
+Create an Express.js app with a home page (/home) rendered by jade template engine, that shows current date.
+
+Jade template file index.jade is already provided:
+
+  h1 Hello World
+  p Today is {#date}.
+
+This is how to specify path in a typical Express.js app considering that the folder is 'templates':
+
+  app.set('views', path.join(__dirname, 'templates'))
+
+However, to use our index.jade, the path to index.jade will be provided in the process.argv[3] value. You are welcome to use your own jade file!
+
+To tell Express.js app what template engine to use, apply this line to Express.js configuration:
+
+  app.set('view engine', 'jade')
+
+Instead of Hellow World's res.end, rhe res.render fundtion accepts filename and data:
+
+  res.render('index', {date: new Date().toDateString()})
+
+We use toDateString() to simply return the date in a human readable format sans time.
+
+
+--------------------------------
+
+NOTE
+
+When creating your projects from scratch, install jade dependency with NPM.
