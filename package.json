@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "Express.js workshop based on workshopper and inspired by stream-adventure by @substack and @maxogden.",
   "main": "expressworks.js",
-  "author": "Azat Mardanov (@azat_co)",
+  "author": "Azat Mardanov (@azat_co) http://azat.co",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
     "javascript",
     "nodeschool.io"
   ],
+  "author": "Azat Mardanov (@azat_co)",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/azat-co/expressworks/issues"
