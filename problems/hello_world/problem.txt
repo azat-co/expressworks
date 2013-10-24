@@ -1,0 +1,21 @@
+Create an Express.js app that runs on localhost:3000, and outputs "Hello World!" when somebody goes to root '/home'.
+process.argv[2] will be provided by {appnam} to you, this is the port number.
+
+-----------------------
+
+HINTS
+
+This is how we can create an Express.js app on port 3000, that responds with a string on '/':
+
+  var express = require('express')
+  var app = express()
+  app.get('/', function(req, res) {
+    res.end('Hello World!')
+  })
+  app.listen(3000)
+
+Please use process.argv[2] instead of port number:
+
+  app.listen(process.argv[2])
+
+

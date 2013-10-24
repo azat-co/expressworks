@@ -1,0 +1,29 @@
+{
+  "name": "expressworks",
+  "version": "0.0.1",
+  "description": "Express.js workshop based on workshopper and inspired by stream-adventure by @substack and @maxogden.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azat-co/expressworks"
+  },
+  "keywords": [
+    "express.js",
+    "node.js",
+    "javascript",
+    "nodeschool.io"
+  ],
+  "author": "Azat Mardanov (@azat_co)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/azat-co/expressworks/issues"
+  },
+  "dependencies": {
+    "workshopper": "~0.3.3",
+    "express": "~3.4.3",
+    "superagent": "~0.15.7"
+  }
+}
