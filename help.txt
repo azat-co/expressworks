@@ -1,1 +1,17 @@
-this is help
+Welcome to ExpressWorks — automated workshop for Express.js framework.
+Express.js workshop based on workshopper and inspired by stream-adventure by @substack and @maxogden.
+
+API docs:
+
+http://expressjs.com/api.html
+
+Express.js Guide:
+
+http://expressjsguide.com
+
+
+Issues? Suggestions? Feedback?
+
+https://github.com/azat-co/expressworks/issues
+
+Another awesome workshops: http://nodeschool.io

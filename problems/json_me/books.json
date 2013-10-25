@@ -1,0 +1,10 @@
+ [{
+  "title": "Express.js Guide",
+  "tags": ["node.js", "express.js"],
+  "url": "http://expressjsguide.com"},
+  {"title": "Rapid Prototyping with JS",
+  "tags": ["backbone.js", "node.js", "mongodb"],
+  "url": "http://rpjs.co"},
+  {"title": "JavaScript: The Good Parts",
+  "tags": ["javascript"]}
+]

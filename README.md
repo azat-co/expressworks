@@ -5,8 +5,7 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/hello-world.png)
 
-## Installation
-
+## Installation (recommended)
 
 Recommended global installation:
 
@@ -15,7 +14,7 @@ $ npm install -g expressworks
 $ expressworks
 ```
 
-## Install Locally (advanced)
+## Local Install (advanced)
 
 Run&install locally:
 
@@ -25,3 +24,30 @@ $ cd expressworks
 $ npm install
 $ node expressworks
 ```
+
+# Usage
+
+ExpressWorks understands these commands:
+
+```
+Usage
+
+  expressworks
+    Show a menu to interactively select a workshop.
+  expressworks list
+    Show a newline-separated list of all the workshops.
+  expressworks select NAME
+    Select a workshop.
+  expressworks current
+    Show the currently selected workshop.
+  expressworks run program.js
+    Run your program against the selected input.
+  expressworks verify program.js
+    Verify your program against the expected output.
+```
+
+# Reset
+
+If you want to reset the list of completed tasks, clean the `~/.config/expressworks/completed.json` file.
+
+![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/finished.png)
