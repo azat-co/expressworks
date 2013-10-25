@@ -14,7 +14,14 @@ $ npm install -g expressworks
 $ expressworks
 ```
 
-## Local Install (advanced)
+
+If you see errors, try:
+
+```bash
+$ sudo npm install -g expressworks
+```
+
+## Local Installation (advanced)
 
 Run&install locally:
 
@@ -51,3 +58,7 @@ Usage
 If you want to reset the list of completed tasks, clean the `~/.config/expressworks/completed.json` file.
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/finished.png)
+
+# More Information
+
+Check out [Express.js Guide](http://expressjsguide.com).
