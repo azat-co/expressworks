@@ -1,0 +1,17 @@
+Create an Express.js server that processes PUT '/message/:id' requests, e.g., PUT '/message/526aa677a8ceb64569c9d4fb'
+
+As the response of this request return id SHA1 hashed with a date:
+
+  require('crypto')
+    .createHash('sha1')
+    .update(new Date().toDateString().toString() + id)
+    .digest('hex')
+
+
+-----------------------------
+
+HINTS
+
+To extract parameters from within the request handlers, use:
+
+  req.params.NAME
