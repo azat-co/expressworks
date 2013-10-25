@@ -1,0 +1,29 @@
+Style your HTML with some Stylus middleware. The main.styl file is provided in process.argv[3] or you can create your own from these:
+
+  p
+    color red
+
+The index.html file:
+
+  <html>
+    <head>
+      <title>expressworks</title>
+      <link rel="stylesheet" type="text/css" href="/main.css"/>
+    </head>
+    <body>
+      <p>I am red!</p>
+    </body>
+  </html>
+
+
+-----------------------------
+
+HINTS
+
+To plug-in stylus someone can use this middleware:
+
+  app.use(require('stylus').middleware(__dirname + '/public'));
+
+NOTE
+
+For your own projects, Stylus requires to be installed like any other dependency.

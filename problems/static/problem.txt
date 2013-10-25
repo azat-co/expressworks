@@ -1,0 +1,22 @@
+Apply static middleware to server index.html file without any routes. The index.html file is provided and usable via process.argv[3] value of the path to it. However, you can use you're own file with this contect:
+
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="/main.css"/>
+    </head>
+    <body>
+      <p>I am red!</p>
+    </body>
+  </html>
+
+-----------------------------
+
+HINTS
+
+This you someone can call static middleware:
+
+  app.use(express.static(path.join(__dirname, '/public')));
+
+For this exercise:
+
+  app.use(express.static(path.join(process.argv[3])));
