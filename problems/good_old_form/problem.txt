@@ -1,0 +1,17 @@
+Write a route that processes HTML form input (<form><imput name="str"/></form>) and prints backwards the str value.
+
+-----------------------------
+
+HINTS
+
+Express.js has urlencoded() middleware (from Connect library):
+
+  app.use(express.urlencoded())
+
+Here is how we can flip the characters:
+
+  req.body.str.split('').reverse().join('')
+
+-----------------------------
+
+Avoid using soon to be depricated bodyParser() middleware.

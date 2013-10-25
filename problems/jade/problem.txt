@@ -1,4 +1,8 @@
-Create an Express.js app with a home page (/home) rendered by jade template engine, that shows current date.
+Create an Express.js app with a home page (/home) rendered by jade template engine, that shows current date (toDateString).
+
+-----------------------------
+
+HINTS
 
 Jade template file index.jade is already provided:
 
