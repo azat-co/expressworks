@@ -1,15 +1,12 @@
 /*global process, require*/
 /*jslint unparam:true*/
-(function () {
-    'use strict';
-    var express = require('express'),
-        app = express();
+var express = require('express'),
+    app = express();
 
-    app.use(express.urlencoded());
+app.use(express.urlencoded());
 
-    app.post('/form', function (req, res) {
-        res.send(req.body.str.split('').reverse().join(''));
-    });
+app.post('/form', function (req, res) {
+    res.send(req.body.str.split('').reverse().join(''));
+});
 
-    app.listen(process.argv[2]);
-}());
+app.listen(process.argv[2]);
