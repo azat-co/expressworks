@@ -5,6 +5,24 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/hello-world.png)
 
+## Disclaimer
+
+* For your own project, Express must be installed, either locally or globally
+```bash
+$ npm install -g express
+```
+* We use Self-executing/Immediate functions, to create scopes around the solutions. It's only porpuse to prevent us from creating unwanted global variables. If you want, you can skip it from your solution.
+ ```javascript
+
+    (function () {
+        'use strict';
+        //the solution goes here
+    }();
+
+ ```
+Further reading: http://javascriptplayground.com/blog/2012/04/javascript-variable-scope-this/
+
+
 ## Installation (recommended)
 
 Recommended global installation:
