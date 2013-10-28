@@ -1,4 +1,4 @@
-Write a route that processes HTML form input (<form><imput name="str"/></form>) and prints backwards the str value.
+Write a route ('/form') that processes HTML form input (<form><imput name="str"/></form>) and prints backwards the str value.
 
 -----------------------------
 
