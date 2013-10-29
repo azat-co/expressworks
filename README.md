@@ -62,3 +62,81 @@ If you want to reset the list of completed tasks, clean the `~/.config/expresswo
 # More Information
 
 Check out [Express.js Guide](http://expressjsguide.com).
+
+# Steps
+
+
+## Hello World
+
+Create an Express.js app that runs on localhost:3000, and outputs "Hello World!" when somebody goes to root '/home'.
+
+`process.argv[2]` will be provided by expressworks to you, this is the port number.
+
+## Jade
+
+Create an Express.js app with a home page (/home) rendered by jade template engine, that shows current date (toDateString).
+
+
+## Good Old Form
+
+Write a route ('/form') that processes HTML form input (<form><imput name="str"/></form>) and prints backwards the str value.
+
+## Static
+
+Apply static middleware to server index.html file without any routes. The index.html file is provided and usable via `process.argv[3]` value of the path to it. However, you can use you're own file with this content:
+
+```html
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="/main.css"/>
+    </head>
+    <body>
+      <p>I am red!</p>
+    </body>
+  </html>
+```
+
+## Stylish CSS
+
+Style your HTML from previous example with some Stylus middleware. The path to main.styl file is provided in `process.argv[3]` or you can create your own file/folder from these:
+
+```css
+  p
+    color red
+```
+
+The index.html file:
+
+```html
+  <html>
+    <head>
+      <title>expressworks</title>
+      <link rel="stylesheet" type="text/css" href="/main.css"/>
+    </head>
+    <body>
+      <p>I am red!</p>
+    </body>
+  </html>
+```
+
+## Param Pam Pam 
+
+Create an Express.js server that processes PUT `/message/:id` requests, e.g., PUT `/message/526aa677a8ceb64569c9d4fb`.
+
+As the response of this request return id SHA1 hashed with a date:
+
+```javascript
+  require('crypto')
+    .createHash('sha1')
+    .update(new Date().toDateString().toString() + id)
+    .digest('hex')
+```
+
+## What's in Query
+
+Write a route that extracts data from query string in the GET `/search` URL route, e.g., `?results=recent&include_tabs=true`, and then transforms outputs it back to the user in JSON format.
+
+## JSON Me
+
+Write a server that reads a file (file name is passed in `process.argv[3]`), parses it to JSON and outputs the content to the user with `res.json(object)`.
+
