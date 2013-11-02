@@ -19,7 +19,7 @@ To tell Express.js app what template engine to use, apply this line to Express.j
 
   app.set('view engine', 'jade')
 
-Instead of Hellow World's res.end, rhe res.render fundtion accepts filename and data:
+Instead of Hello World's res.end, the res.render function accepts filename and data:
 
   res.render('index', {date: new Date().toDateString()})
 
