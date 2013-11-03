@@ -1,10 +1,10 @@
-var path = require('path')
-var express = require('express')
-var app = express()
+/*global process, require*/
+var express = require('express'),
+    app = express();
 
-app.get('/search', function(req, res){
-  var query = req.query
-  res.send(query)
-})
+app.get('/search', function (req, res) {
+    var query = req.query;
+    res.send(query);
+});
 
-app.listen(process.argv[2])
+app.listen(process.argv[2]);

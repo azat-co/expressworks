@@ -14,4 +14,4 @@ HINTS
 
 To extract parameters from within the request handlers, use:
 
-  req.params.NAME
+  req.params('NAME')

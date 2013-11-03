@@ -12,3 +12,5 @@ For reading, there's an fs module, e.g.,
 While the parsing can be done with JSON.parse:
 
   object = JSON.parse(string)
+
+Do not forget: maybe you won't get a valid JSON!
