@@ -1,4 +1,5 @@
 var PassThrough = require('stream').PassThrough || require('readable-stream/passthrough')
+var path = require('path')
 
 module.exports = function(isRun) {
   var submissionOut = new PassThrough()
@@ -14,9 +15,10 @@ module.exports = function(isRun) {
         .pipe(solutionOut)
     }
    }, 500)
+
   return {
-      submissionArgs: [3000]
-    , solutionArgs: [3001]
+      submissionArgs: [3000, path.join(__dirname, 'public')]
+    , solutionArgs: [3001, path.join(__dirname, 'public')]
     , a : submissionOut
     , b : solutionOut
   }

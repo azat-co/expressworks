@@ -7,7 +7,7 @@ HINTS
 
 For reading, there's an fs module, e.g.,
 
-  fs.fileRead(filename, callback)
+  fs.readFile(filename, callback)
 
 While the parsing can be done with JSON.parse:
 

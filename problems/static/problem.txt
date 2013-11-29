@@ -15,8 +15,8 @@ HINTS
 
 This you someone can call static middleware:
 
-  app.use(express.static(path.join(__dirname, '/public')));
+  app.use(express.static(path.join(__dirname, 'public')));
 
-For this exercise:
+For this exercise ExpressWorks will pass you the path:
 
-  app.use(express.static(path.join(process.argv[3])));
+  app.use(express.static(process.argv[3]||path.join(__dirname, 'public')));
