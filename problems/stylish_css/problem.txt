@@ -24,6 +24,8 @@ To plug-in stylus someone can use this middleware:
 
   app.use(require('stylus').middleware(__dirname + '/public'));
 
+Remember that you need also to serve static files.
+
 NOTE
 
 For your own projects, Stylus requires to be installed like any other dependency.
