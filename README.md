@@ -5,6 +5,14 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/hello-world.png)
 
+## Contributors
+
+     38  Azat Mardanov
+     3  Charlotte Spencer
+     1  Wojciech Gawronski
+
+PS: via `git shortlog -n -s`
+
 ## Installation (recommended)
 
 Recommended global installation:
