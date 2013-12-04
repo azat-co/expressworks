@@ -7,7 +7,7 @@ HINTS
 Jade template file index.jade is already provided:
 
   h1 Hello World
-  p Today is {#date}.
+  p Today is #{date}.
 
 This is how to specify path in a typical Express.js app considering that the folder is 'templates':
 
