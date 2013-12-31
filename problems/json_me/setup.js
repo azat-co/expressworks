@@ -7,7 +7,7 @@ module.exports = function(isRun) {
   var superagent = require('superagent')
   setTimeout(function() {
     superagent
-      .get('http://localhost:3000/books/')
+      .get('http://localhost:3000/books')
       .pipe(submissionOut)
     if (!isRun) {
       superagent
