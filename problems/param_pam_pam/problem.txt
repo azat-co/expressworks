@@ -12,6 +12,10 @@ As the response of this request return id SHA1 hashed with a date:
 
 HINTS
 
+To handle PUT requests use:
+
+  app.put('/path/:NAME', function(req, res){...});
+
 To extract parameters from within the request handlers, use:
 
   req.params.NAME
