@@ -1,3 +1,4 @@
+var path = require('path')
 var express = require('express')
 var app = express()
 var fs = require('fs')
