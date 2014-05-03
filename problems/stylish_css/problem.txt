@@ -1,4 +1,4 @@
-Style your HTML from previous example with some Stylus middleware. Your solution must listen on the port number supplied by process.argv[2]. The path to main.styl file is provided in process.argv[3] or you can create your own file/folder from these:
+Style your HTML from previous example with some Stylus middleware. The path to main.styl file is provided in process.argv[3] or you can create your own file/folder from these:
 
   p
     color red
@@ -28,4 +28,4 @@ Remember that you need also to serve static files.
 
 NOTE
 
-For your own projects, Stylus requires to be installed like any other dependency.
+For your own projects, Stylus requires to be installed like any other dependency: npm install stylus.
