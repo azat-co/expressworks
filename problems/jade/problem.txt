@@ -31,3 +31,5 @@ We use toDateString() to simply return the date in a human readable format sans 
 NOTE
 
 When creating your projects from scratch, install jade dependency with NPM.
+
+Again, the port to use is passed {appname} to the application as process.argv[2].

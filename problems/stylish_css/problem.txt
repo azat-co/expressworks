@@ -28,4 +28,4 @@ Remember that you need also to serve static files.
 
 NOTE
 
-For your own projects, Stylus requires to be installed like any other dependency.
+For your own projects, Stylus requires to be installed like any other dependency: npm install stylus.
