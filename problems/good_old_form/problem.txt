@@ -4,6 +4,15 @@ Write a route ('/form') that processes HTML form input (<form><input name="str"/
 
 HINTS
 
+To handle POST request use the post() method which is used the same way as get():
+
+  app.post('/path', function(req, res){...})
+
+Express.js use middleware to provide extra functionality to your web server.
+Simply put, a middleware is a function invoked by Express.js before your own request handler.
+Middlewares provide a large variety of functionalities such as logging, serving static files and error handling.
+A middleware is added by calling use() on the application and passing the middleware as a parameter.
+
 Express.js has urlencoded() middleware (from Connect library):
 
   app.use(express.urlencoded())
