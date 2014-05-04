@@ -7,9 +7,18 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 ## Contributors
 
-     38  Azat Mardanov
+
+```
+    48  Azat Mardanov
      3  Charlotte Spencer
+     2  Thomas Burette
      1  Wojciech Gawronski
+     1  Giuseppe
+     1  Alessandro Lensi
+     1  Ryan Kois
+```
+
+Make a PR to see your name here. ;-)
 
 PS: via `git shortlog -n -s`
 
@@ -148,17 +157,3 @@ Write a route that extracts data from query string in the GET `/search` URL rout
 
 Write a server that reads a file (file name is passed in `process.argv[3]`), parses it to JSON and outputs the content to the user with `res.json(object)`.
 
-
-# Credits
-
-```
-    48  Azat Mardanov
-     3  Charlotte Spencer
-     2  Thomas Burette
-     1  Wojciech Gawronski
-     1  Giuseppe
-     1  Alessandro Lensi
-     1  Ryan Kois
-```
-
-Make a PR to see your name here. ;-)
