@@ -25,9 +25,10 @@
   "preferGlobal": true,
   "dependencies": {
     "workshopper": "~0.3.3",
-    "express": "~3.4.3",
+    "express": "~4.4.2",
     "superagent": "~0.15.7",
     "jade": "~0.35.0",
-    "stylus": "~0.38.0"
+    "stylus": "~0.38.0",
+    "connect": "~2.19.5"
   }
 }
