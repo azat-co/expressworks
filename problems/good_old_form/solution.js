@@ -1,7 +1,8 @@
 var express = require('express')
+var connect = require('connect')
 var app = express()
 
-app.use(express.urlencoded())
+app.use(connect.urlencoded())
 
 app.post('/form', function(req, res) {
   res.send(req.body.str.split('').reverse().join(''))

@@ -4,7 +4,7 @@ As the response of this request return id SHA1 hashed with a date:
 
   require('crypto')
     .createHash('sha1')
-    .update(new Date().toDateString().toString() + id)
+    .update(new Date().toDateString() + id)
     .digest('hex')
 
 

@@ -13,14 +13,22 @@ Simply put, a middleware is a function invoked by Express.js before your own req
 Middlewares provide a large variety of functionalities such as logging, serving static files and error handling.
 A middleware is added by calling use() on the application and passing the middleware as a parameter.
 
-Express.js has urlencoded() middleware (from Connect library):
+To parse x-ww-form-urlencoded request bodies Express.js can use urlencoded() middleware (from Connect library):
 
-  app.use(express.urlencoded())
+  app.use(connect.urlencoded())
+
+Read more about Connect here:
+  http://www.senchalabs.org/connect
 
 Here is how we can flip the characters:
 
   req.body.str.split('').reverse().join('')
-
 -----------------------------
 
+NOTE
+
 Avoid using soon to be depricated bodyParser() middleware.
+
+When creating your projects from scratch, install connect dependency with NPM.
+
+Again, the port to use is passed {appname} to the application as process.argv[2].
