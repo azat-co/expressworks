@@ -9,10 +9,9 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 
 ```
-    53  Azat Mardanov
+    55  Azat Mardan
      3  Charlotte Spencer
      2  Thomas Burette
-     2  Azat Mardan
      2  intrueder
      1  Giuseppe
      1  Dylan Smith
