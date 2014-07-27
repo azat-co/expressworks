@@ -1,8 +1,8 @@
 var express = require('express')
-var connect = require('connect')
+var bodyParser = require('body-parser')
 var app = express()
 
-app.use(connect.urlencoded())
+app.use(bodyParser.urlencoded({extended: false}))
 
 app.post('/form', function(req, res) {
   res.send(req.body.str.split('').reverse().join(''))
