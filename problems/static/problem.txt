@@ -2,7 +2,7 @@ Apply static middleware to serve index.html file without any routes. Your soluti
 
   <html>
     <head>
-      <link rel="stylesheet" type="text/css" href="/main.css"/>
+      <title>expressworks</title>
     </head>
     <body>
       <p>I am red!</p>
