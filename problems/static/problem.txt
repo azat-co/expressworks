@@ -13,7 +13,7 @@ Apply static middleware to serve index.html file without any routes. Your soluti
 
 HINTS
 
-This you someone can call static middleware:
+This is how you can call static middleware:
 
   app.use(express.static(path.join(__dirname, 'public')));
 
