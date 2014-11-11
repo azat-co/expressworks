@@ -14,4 +14,4 @@ Issues? Suggestions? Feedback?
 
 https://github.com/azat-co/expressworks/issues
 
-Another awesome workshops: http://nodeschool.io
+Other awesome workshops: http://nodeschool.io
