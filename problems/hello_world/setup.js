@@ -14,7 +14,7 @@ module.exports = function(isRun) {
         .pipe(solutionOut)
     }
 
-   }, 500)
+   }, 1500)
 
   return {
       submissionArgs: [3000]
