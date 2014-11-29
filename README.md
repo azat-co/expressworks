@@ -1,7 +1,7 @@
 expressworks
 ============
 
-Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper) and inspired by [stream-adventure](https://github.com/substack/stream-adventure) by [@substack](https://twitter.com/substack) and [@maxogden](https://twitter.com/maxogden).
+Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper) and inspired by [stream-adventure](https://github.com/substack/stream-adventure) by [@substack](https://twitter.com/substack) and [@maxogden](https://twitter.com/maxogden). ExpressWorks will provide you with tasks and hints. You write the solutions to these problems. Then, after you wrote a solution as an Express.js app, ExpressWorks will verify your solution to the problem.
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/hello-world.png)
 
@@ -10,16 +10,20 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 ```
     55  Azat Mardanov
-     5  Azat Mardan
+    12  Azat Mardan
      3  Charlotte Spencer
      2  Thomas Burette
      2  intrueder
-     1  Wojciech Gawronski
-     1  Giuseppe
-     1  Dylan Smith
-     1  Alessandro Lensi
+     1  Harry Moreno
      1  Jonny Arnold
      1  Ryan Kois
+     1  Timothy Gu
+     1  Wojciech Gawronski
+     1  Giuseppe
+     1  Ayman Mahfouz
+     1  Dylan Smith
+     1  Finn
+     1  Alessandro Lensi
 ```
 
 Make a PR to see your name here. ;-)
@@ -47,9 +51,9 @@ $ sudo npm install -g expressworks
 Run&install locally:
 
 ```bash
+$ mkdir node_modules
 $ npm install expressworks
-$ cd expressworks
-$ npm install
+$ cd node_modules/expressworks
 $ node expressworks
 ```
 
