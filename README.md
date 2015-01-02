@@ -58,6 +58,8 @@ $ node expressworks
 ```
 
 # Usage
+*Note* ExpressWorks depends on a local copy of express being available. Make sure to do
+`npm install express` to do the exercises.
 
 ExpressWorks understands these commands:
 
