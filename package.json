@@ -29,6 +29,7 @@
     "jade": "~0.35.0",
     "stylus": "~0.38.0",
     "superagent": "~0.15.7",
-    "workshopper": "~0.7.2"
+    "through2": "^0.6.3",
+    "workshopper": "^2.3.1"
   }
 }

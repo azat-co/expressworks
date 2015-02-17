@@ -3,9 +3,13 @@
 const Workshopper = require('workshopper')
     , path        = require('path')
 
+function fpath (f) {
+  return path.join(__dirname, f)
+}
+
 Workshopper({
-    name     : 'expressworks'
-  , title    : 'Master Express.js and have fun!'
-  , appDir   : __dirname
-  , helpFile : path.join(__dirname, 'help.txt')
-}).init()
+    name      : 'expressworks'
+  , appDir    : __dirname
+  , languages : ['en']
+  , helpFile  : fpath('./i18n/help/{lang}.txt')
+})
