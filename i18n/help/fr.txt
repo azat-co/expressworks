@@ -1,0 +1,20 @@
+Bienvenue dans ExpressWorks — Un atelier automatisée pour le framework Express.js.
+
+Cet atelier est basé sur `workshopper` et inspiré par `stream-adventure`
+de @substack et @maxogden.
+
+Documentation API :
+
+  http://expressjs.com/api.html
+
+Guide Express.js :
+
+  http://expressjsguide.com
+
+Des soucis ?  Des suggestions ?  Des retours à nous faire ?
+
+  https://github.com/azat-co/expressworks/issues
+
+D’autres ateliers géniaux :
+
+  http://nodeschool.io
