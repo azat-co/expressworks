@@ -8,6 +8,11 @@
       }
     }
   },
+  "exercises": {
+    "good_old_form": {
+      "source": "Express.js ça défonce !"
+    }
+  },
   "exercise": {
     "HELLO WORLD!": "BONJOUR, MONDE !",
     "JADE": "JADE",

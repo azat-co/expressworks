@@ -52,7 +52,7 @@ function query (mode) {
 
   function connect (port, stream) {
     var url = 'http://localhost:' + port + '/form'
-    var text = 'Express.js rocks!'.split('').reverse().join('');
+    var text = exercise.__('exercises.good_old_form.source').split('').reverse().join('');
 
     superagent
       .post(url)
