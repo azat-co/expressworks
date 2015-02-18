@@ -9,21 +9,25 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 
 ```
-    55  Azat Mardanov
-    12  Azat Mardan
+    25  Azat Mardan
      3  Charlotte Spencer
+     3  Harry Moreno
      2  Thomas Burette
      2  intrueder
-     1  Harry Moreno
      1  Jonny Arnold
+     1  Louis Pilfold
+     1  Rich Trott
      1  Ryan Kois
      1  Timothy Gu
      1  Wojciech Gawronski
-     1  Giuseppe
+     1  brownman
+     1  Alessandro Lensi
+     1  raj
      1  Ayman Mahfouz
+     1  Daniel Geier
      1  Dylan Smith
      1  Finn
-     1  Alessandro Lensi
+     1  Giuseppe
 ```
 
 Make a PR to see your name here. ;-)
