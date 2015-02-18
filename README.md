@@ -110,7 +110,7 @@ Write a route ('/form') that processes HTML form input (<form><imput name="str"/
 
 ## Static
 
-Apply static middleware to server index.html file without any routes. The index.html file is provided and usable via `process.argv[3]` value of the path to it. However, you can use you're own file with this content:
+Apply static middleware to server index.html file without any routes. The index.html file is provided and usable via `process.argv[3]` value of the path to it. However, you can use your own file with this content:
 
 ```html
   <html>
