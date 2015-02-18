@@ -35,6 +35,7 @@ PS: via `git shortlog -n -s`
 Recommended global installation:
 
 ```bash
+$ npm install express
 $ npm install -g expressworks
 $ expressworks
 ```
