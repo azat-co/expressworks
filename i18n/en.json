@@ -1,0 +1,11 @@
+{
+  "title": "Master Express.js and have fun!",
+  "subtitle": "\u001b[23mSelect an exercise and hit \u001b[3mEnter\u001b[23m to begin",
+  "common": {
+    "exercise": {
+      "fail": {
+        "connection": "Error connecting to {{{address}}}: {{{message}}}"
+      }
+    }
+  }
+}
