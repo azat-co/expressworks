@@ -7,5 +7,10 @@
         "connection": "Error connecting to {{{address}}}: {{{message}}}"
       }
     }
+  },
+  "exercises": {
+    "good_old_form": {
+      "source": "Express.js rocks!"
+    }
   }
 }
