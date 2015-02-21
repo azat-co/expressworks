@@ -30,6 +30,7 @@
     "stylus": "^0.50.0",
     "superagent": "~0.15.7",
     "through2": "^0.6.3",
-    "workshopper": "^2.3.1"
+    "workshopper": "^2.3.1",
+    "workshopper-exercise": "^2.3.0"
   }
 }
