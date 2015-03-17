@@ -9,14 +9,15 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 
 ```
-    25  Azat Mardan
-     3  Charlotte Spencer
+    19  Christophe Porteneuve
      3  Harry Moreno
+     3  Charlotte Spencer
      2  Thomas Burette
      2  intrueder
-     1  Jonny Arnold
+     2  Kevin Jayanthan
      1  Louis Pilfold
      1  Rich Trott
+     1  Richard Kho
      1  Ryan Kois
      1  Timothy Gu
      1  Wojciech Gawronski
@@ -28,6 +29,8 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
      1  Dylan Smith
      1  Finn
      1  Giuseppe
+     1  Jessie Shi
+     1  Jonny Arnold
 ```
 
 Make a PR to see your name here. ;-)
