@@ -1,7 +1,7 @@
 expressworks
 ============
 
-這個 Express.js workshop 是 [@substack](https://twitter.com/substack) 與 [@maxogden](https://twitter.com/maxogden) 基於 [workshopper](https://github.com/rvagg/workshopper) 並啟迪自 [stream-adventure](https://github.com/substack/stream-adventure) 所製作。ExpressWorks 會提供你任務與提示。您針對這些問題寫出一個 Express.js app 作為解決方案之後，ExpressWorks 將會驗證你的解法是否正確。
+這個 Express.js workshop 是基於 [workshopper](https://github.com/rvagg/workshopper) 並啟迪自 [@substack](https://twitter.com/substack) 與 [@maxogden](https://twitter.com/maxogden) 所製作的 [stream-adventure](https://github.com/substack/stream-adventure) 。ExpressWorks 會提供您任務與提示。您針對這些問題寫出一個 Express.js app 作為解決方案之後，ExpressWorks 將會驗證您的解法是否正確。
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/hello-world.png)
 
@@ -82,14 +82,14 @@ Usage
   expressworks current
     顯示目前已選的 workshop
   expressworks run program.js
-    執行你的程式處理選定的輸入
+    執行您的程式處理選定的輸入
   expressworks verify program.js
-    驗證你的程式是否有預期的輸出
+    驗證您的程式是否有預期的輸出
 ```
 
 # 重設
 
-如果你想要重設完成作業的清單，可以清除 `~/.config/expressworks/completed.json` 檔案
+如果您想要重設完成作業的清單，可以清除 `~/.config/expressworks/completed.json` 檔案
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/finished.png)
 
@@ -116,7 +116,7 @@ exportworks 會將聆聽的 port 提供在程式的 `process.argv[2]` 。
 
 ## Static
 
-不透過任何路由，將靜態 middleware 套用至伺服器的 index.html 檔案。這個 index.html 檔案所在位置將會透過 `process.argv[3]` 提供給程式。無論如何，你也可以使用含有以下內容的檔案：
+不透過任何路由，將靜態 middleware 套用至伺服器的 index.html 檔案。這個 index.html 檔案所在位置將會透過 `process.argv[3]` 提供給程式。無論如何，您也可以使用含有以下內容的檔案：
 
 ```html
   <html>
@@ -131,7 +131,7 @@ exportworks 會將聆聽的 port 提供在程式的 `process.argv[2]` 。
 
 ## Stylish CSS
 
-使用一些 Stylus middleware 為您之前使用的 HTML 檔案套上樣式。main.styl 檔案的所在位置將會透過 `process.argv[3]` 傳給程式，或你也可以用以下的內容建立你自己的檔案或目錄：
+使用一些 Stylus middleware 為您之前使用的 HTML 檔案套上樣式。main.styl 檔案的所在位置將會透過 `process.argv[3]` 傳給程式，或您也可以用以下的內容建立您自己的檔案或目錄：
 
 ```css
   p
