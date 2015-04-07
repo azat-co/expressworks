@@ -1,11 +1,11 @@
 expressworks
 ============
 
-Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper) and inspired by [stream-adventure](https://github.com/substack/stream-adventure) by [@substack](https://twitter.com/substack) and [@maxogden](https://twitter.com/maxogden). ExpressWorks will provide you with tasks and hints. You write the solutions to these problems. Then, after you wrote a solution as an Express.js app, ExpressWorks will verify your solution to the problem.
+這個 Express.js workshop 是 [@substack](https://twitter.com/substack) 與 [@maxogden](https://twitter.com/maxogden) 基於 [workshopper](https://github.com/rvagg/workshopper) 並啟迪自 [stream-adventure](https://github.com/substack/stream-adventure) 所製作。ExpressWorks 會提供你任務與提示。您針對這些問題寫出一個 Express.js app 作為解決方案之後，ExpressWorks 將會驗證你的解法是否正確。
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/hello-world.png)
 
-## Contributors
+## 貢獻者
 
 
 ```
@@ -33,13 +33,13 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
      1  Jonny Arnold
 ```
 
-Make a PR to see your name here. ;-)
+發給我們一個 Pull Request，就可以看到您的名字出現在這裡。 ;-)
 
-PS: via `git shortlog -n -s`
+PS: 產生自 `git shortlog -n -s`
 
-## Installation (recommended)
+## 安裝 (建議方式)
 
-Recommended global installation:
+建議將這個程式裝在系統裡：
 
 ```bash
 $ npm install express
@@ -48,15 +48,15 @@ $ expressworks
 ```
 
 
-If you see errors, try:
+如果發生錯誤，嘗試這樣安裝：
 
 ```bash
 $ sudo npm install -g expressworks
 ```
 
-## Local Installation (advanced)
+## 安裝在所在目錄（進階方式）
 
-Run & install locally:
+執行以下命令以安裝在所在目錄：
 
 ```bash
 $ mkdir node_modules
@@ -65,60 +65,58 @@ $ cd node_modules/expressworks
 $ node expressworks
 ```
 
-# Usage
-*Note*: ExpressWorks depends on a local copy of express being available. Make sure to do
-`npm install express` to do the exercises.
+# 使用方式
+*注意* ： ExpressWorks 需要在當前目錄複製一份可用的 express 程式。請確認執行過 `npm install express` 以完成作業。
 
-ExpressWorks understands these commands:
+ExpressWorks 可以使用以下命令：
 
 ```
 Usage
 
   expressworks
-    Show a menu to interactively select a workshop.
+    顯示互動式清單，以選擇一個 workshop 。
   expressworks list
-    Show a newline-separated list of all the workshops.
-  expressworks select NAME
-    Select a workshop.
+    顯示所有的 workshop，一行一個。
+  expressworks select 「workshop 名字」
+    選擇一個 workshop
   expressworks current
-    Show the currently selected workshop.
+    顯示目前已選的 workshop
   expressworks run program.js
-    Run your program against the selected input.
+    執行你的程式處理選定的輸入
   expressworks verify program.js
-    Verify your program against the expected output.
+    驗證你的程式是否有預期的輸出
 ```
 
-# Reset
+# 重設
 
-If you want to reset the list of completed tasks, clean the `~/.config/expressworks/completed.json` file.
+如果你想要重設完成作業的清單，可以清除 `~/.config/expressworks/completed.json` 檔案
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/finished.png)
 
-# More Information
+# 更多資訊
 
-Check out [Express.js Guide](http://expressjsguide.com).
+可閱讀 [Express.js Guide](http://expressjsguide.com) 這本書
 
-# Steps
+# 步驟
 
 
 ## Hello World
 
-Create an Express.js app that runs on localhost:3000, and outputs "Hello World!" when somebody goes to root '/home'.
+製作一個聆聽在 localhost:3000 ，當有人打開「/home」頁面時會輸出「Hello World!」的 Express.js app 。
 
-`process.argv[2]` will be provided by expressworks to you, this is the port number.
+exportworks 會將聆聽的 port 提供在程式的 `process.argv[2]` 。
 
 ## Jade
 
-Create an Express.js app with a home page (/home) rendered by jade template engine, that shows current date (toDateString).
-
+製作一個在 Home 頁面（/home）以 Jade 模版顯示特定資料（toDateString）的 Express.js app 。
 
 ## Good Old Form
 
-Write a route ('/form') that processes HTML form input (<form><imput name="str"/></form>) and prints backwards the str value.
+撰寫一個可處理 HTML 表單輸入 （<form><imput name="str"/></form>），並接著顯示字串值的路由（/form）
 
 ## Static
 
-Apply static middleware to server index.html file without any routes. The index.html file is provided and usable via `process.argv[3]` value of the path to it. However, you can use your own file with this content:
+不透過任何路由，將靜態 middleware 套用至伺服器的 index.html 檔案。這個 index.html 檔案所在位置將會透過 `process.argv[3]` 提供給程式。無論如何，你也可以使用含有以下內容的檔案：
 
 ```html
   <html>
@@ -133,14 +131,14 @@ Apply static middleware to server index.html file without any routes. The index.
 
 ## Stylish CSS
 
-Style your HTML from previous example with some Stylus middleware. The path to main.styl file is provided in `process.argv[3]` or you can create your own file/folder from these:
+使用一些 Stylus middleware 為您之前使用的 HTML 檔案套上樣式。main.styl 檔案的所在位置將會透過 `process.argv[3]` 傳給程式，或你也可以用以下的內容建立你自己的檔案或目錄：
 
 ```css
   p
     color red
 ```
 
-The index.html file:
+index.html 檔案：
 
 ```html
   <html>
@@ -156,9 +154,9 @@ The index.html file:
 
 ## Param Pam Pam
 
-Create an Express.js server that processes PUT `/message/:id` requests, e.g., PUT `/message/526aa677a8ceb64569c9d4fb`.
+建立一個可以處理 PUT `/message/:id` 請求（如 PUT `/message/526aa677a8ceb64569c9d4fb`）的 Express.js 伺服器。
 
-As the response of this request return id SHA1 hashed with a date:
+這個請求的回應是 id 的 SHA1 雜湊值加上一個日期。
 
 ```javascript
   require('crypto')
@@ -169,9 +167,10 @@ As the response of this request return id SHA1 hashed with a date:
 
 ## What's in Query
 
-Write a route that extracts data from query string in the GET `/search` URL route, e.g., `?results=recent&include_tabs=true`, and then transforms outputs it back to the user in JSON format.
+撰寫一個會解析GET `/search` 網址 query 字串的路由。如 `?results=recent&include_tabs=true` ，並把結果轉換成 JSON 格式輸出。
 
 ## JSON Me
 
-Write a server that reads a file (file name is passed in `process.argv[3]`), parses it to JSON and outputs the content to the user with `res.json(object)`.
+撰寫一個會讀入檔案（檔名會以 `process.argv[3]` 傳給程式），並以 JSON 解析檔案內容，然後把內容以 `res.json(object)` 顯示出來。
+
 
