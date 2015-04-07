@@ -38,7 +38,7 @@ app.set('view engine', 'jade')
 res.render('index', {date: new Date().toDateString()})
 ```
 
-我們使用 `toDateString()` 簡單地回傳可閱讀、不含時間的日期
+我們使用 `toDateString()` 函式簡單地回傳可閱讀、不含時間的日期
 
 --------------------------------
 

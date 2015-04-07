@@ -111,7 +111,7 @@ expressworks 會將聆聽的 port 提供在程式的 `process.argv[2]` 。
 
 ## Good Old Form
 
-撰寫一個可處理 HTML 表單輸入 （<form><imput name="str"/></form>），並接著顯示字串值的路由（/form）
+撰寫一個可處理 HTML 表單輸入 （<form><imput name="str"/></form>），並接著把字串倒過來顯示的路由（`/form`）
 
 ## Static
 
