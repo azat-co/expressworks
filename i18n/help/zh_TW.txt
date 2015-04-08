@@ -9,10 +9,9 @@ API 文件：
 
 http://expressjs.com/api.html
 
-Express.js Guide：
+書本《Express.js Guide》：
 
 http://expressjsguide.com
-
 
 有任何問題、建議或回饋？
 
