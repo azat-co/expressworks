@@ -13,9 +13,9 @@ Write a route (`'/form'`) that processes HTML form input
 app.post('/path', function(req, res){...})
 ```
 
-Express.js 使用 middleware 提供更多功能給你的 web 伺服器。
+Express.js 使用 middleware 提供更多功能給您的 web 伺服器。
 
-在你處理請求之前，Express.js 會引入一個 middleware 函式。
+在您處理請求之前，Express.js 會引入一個 middleware 函式。
 
 Middleware 提供許多不同的功能如記錄（logging）、提供靜態檔案，以及錯誤處理。
 

@@ -130,7 +130,7 @@ expressworks 會將聆聽的 port 提供在程式的 `process.argv[2]` 。
 
 ## Stylish CSS
 
-使用一些 Stylus middleware 為您之前使用的 HTML 檔案套上樣式。main.styl 檔案的所在位置將會透過 `process.argv[3]` 傳給程式，或您也可以用以下的內容建立您自己的檔案或目錄：
+使用 Stylus middleware 為您之前使用的 HTML 檔案套上樣式。main.styl 檔案的所在位置將會透過 `process.argv[3]` 傳給程式，或您也可以用以下的內容建立您自己的檔案或目錄：
 
 ```css
   p

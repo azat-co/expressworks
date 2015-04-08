@@ -44,6 +44,6 @@ res.render('index', {date: new Date().toDateString()})
 
 ## 注意
 
-如果你要從頭建立這個專案，請記得用 npm 安裝必備的 `jade` 模版引擎。 
+如果您要從頭建立這個專案，請記得用 npm 安裝必備的 `jade` 模版引擎。 
 
 port會再一次的被 {appname} 以 `process.argv[2]` 傳給程式。
