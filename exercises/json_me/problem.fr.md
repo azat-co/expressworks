@@ -10,7 +10,7 @@ Répondez à l’aide de :
 res.json(object)
 ```
 
-L’ensemble du traitement doit correspondre au chemin de ressource '/books'.
+L’ensemble du traitement doit correspondre au chemin de ressource`'/books'`.
 
 
 -----------------------------

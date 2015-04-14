@@ -9,7 +9,7 @@ Respond with:
 res.json(object)
 ```
 
-Everything should match the '/books' resource path.
+Everything should match the `'/books'` resource path.
 
 
 -----------------------------
