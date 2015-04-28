@@ -30,5 +30,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 For this exercise {appname} will pass you the path:
 
 ```js
-app.use(express.static(process.argv[3]||path.join(__dirname, 'public')));
+app.use(express.static(process.argv[3] || path.join(__dirname, 'public')));
 ```
