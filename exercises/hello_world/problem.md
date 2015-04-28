@@ -3,7 +3,7 @@ Create an Express.js app that outputs "Hello World!" when somebody goes to `/hom
 The port number will be provided to you by {appname} as the first argument of
 the application, ie. `process.argv[2]`.
 
-Run `$ killall node`  before verifying exercises in your terminal on Mac OS X to end any previous processes.
+Run `$ killall node`  before verifying exercises in your terminal on Mac OS X to end any previous processes. For Windows, use `taskkill /IM node.exe`.
 
 -----------------------------
 
