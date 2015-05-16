@@ -1,13 +1,15 @@
-Create an Express.js server that processes PUT `'/message/:id'` requests.
+Create an Express.js server that processes PUT `'/message/:id'` requests
+and produces an SHA1 hash of the current date with the id.
 
-For instance:
+For instance, if the server recieves
 
 ```
 PUT /message/526aa677a8ceb64569c9d4fb
 ```
 
-As a response to these requests, return the SHA1 hash of the current date
-plus the sent ID:
+it will respond with a hash the current date (as a string) and the id.
+
+This could be computed like so:
 
 ```js
 require('crypto')
@@ -20,13 +22,16 @@ require('crypto')
 
 ## HINTS
 
-To handle PUT requests use:
+Express.js apps can also be mounted to paths that contain a variable by
+prepending a `:` to the beginning of a variable name. For instance, in 
+the following, `app` handles PUT requests any subdirectory of `/path/`:
 
 ```js
-app.put('/path/:NAME', function(req, res){...});
+app.put('/path/:NAME', function(req, res){ /* ... */ });
 ```
 
-To extract parameters from within the request handlers, use:
+The given variable is then stored in the `req.params`. So, to extract
+parameters from within the request handlers, use:
 
 ```js
 req.params.NAME
