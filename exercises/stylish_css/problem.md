@@ -1,9 +1,11 @@
-Style your HTML from previous example with some Stylus middleware.
+Style the html from the example "STATIC" using Stylus middleware. [Stylus]
+(https://github.com/stylus/stylus) generates .css files on the fly from
+.styl files.
 
-Your solution must listen on the port number supplied by `process.argv[2]`.
-
-The path containing the HTML and Stylus files is provided in `process.argv[3]`
-(they are in the same directory). You can create your own folder and use these:
+Your solution should listen on the port supplied by `process.argv[2]` for
+`GET` requests. It should return the HTML `index.html` styled with `main.styl` in
+the directory `process.argv[3]` (they are in the same directory). You could also
+create your own folder and use these, if you like:
 
 The `main.styl` file:
 
@@ -30,13 +32,15 @@ The `index.html` file:
 
 ## HINTS
 
-To plug-in stylus someone can use this middleware:
+You'll want to plug in some stylus middleware using the `app.use` again.
+It'll look something like this:
 
 ```js
-app.use(require('stylus').middleware(__dirname + '/public'));
+app.use(require('stylus').middleware( "/path/to/*.styl" ));
 ```
 
-Remember that you need also to serve static files.
+In addition to producing in the "STATIC" exercise, you'll need to serve static files.
+Remember that middleware is executed in the order `app.use` is called!
 
 ## NOTE
 
