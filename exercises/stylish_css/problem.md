@@ -34,7 +34,7 @@ The `index.html` file:
 
 ## HINTS
 
-You'll want to plug in some stylus middleware using the `app.use` again.
+You'll want to plug in some stylus middleware using `app.use` again.
 It'll look something like this:
 
 ```js
