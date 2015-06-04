@@ -10,15 +10,15 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 ```
     19  Christophe Porteneuve
+     8  Justin Porter
+     6  billy3321
      3  Harry Moreno
      3  Charlotte Spencer
-     2  Thomas Burette
-     2  intrueder
      2  Kevin Jayanthan
-     1  Louis Pilfold
-     1  Rich Trott
-     1  Richard Kho
-     1  Ryan Kois
+     2  Thomas Burette
+     2  Julian Mazzitelli
+     2  intrueder
+     2  Kohei TAKATA
      1  Timothy Gu
      1  Wojciech Gawronski
      1  brownman
@@ -31,6 +31,10 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
      1  Giuseppe
      1  Jessie Shi
      1  Jonny Arnold
+     1  Louis Pilfold
+     1  Rich Trott
+     1  Richard Kho
+     1  Ryan Kois
 ```
 
 Make a PR to see your name here. ;-)
