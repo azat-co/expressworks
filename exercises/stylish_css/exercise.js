@@ -34,7 +34,7 @@ exercise.addProcessor(function (mode, callback) {
   if (mode == 'verify')
     this.solutionStdout = through2()
 
-  setTimeout(query.bind(this, mode), 1000)
+  setTimeout(query.bind(this, mode), 2000)
 
   process.nextTick(function () {
     callback(null, true)
