@@ -1,0 +1,16 @@
+{
+  "title": "精通 Express.js，而且很好玩！",
+  "subtitle": "\u001b[23m選取一個作業並且按下 \u001b[3mEnter\u001b[23m 開始！",
+  "common": {
+    "exercise": {
+      "fail": {
+        "connection": "連線到 {{{address}}}: {{{message}}} 失敗"
+      }
+    }
+  },
+  "exercises": {
+    "good_old_form": {
+      "source": "Express.js rocks!"
+    }
+  }
+}

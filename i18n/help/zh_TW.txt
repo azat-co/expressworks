@@ -1,0 +1,20 @@
+Welcome to ExpressWorks — automated workshop for Express.js framework.
+Express.js workshop based on workshopper and inspired by stream-adventure by @substack and @maxogden.
+
+歡迎來到 ExpressWorks，一個為 Express.js framework 所製作的 workshop。
+
+Express.js workshop 是基於 workshopper ，並啟迪於 @substack 與 @maxogden 所製作的 stream-adventure。
+
+API 文件：
+
+http://expressjs.com/api.html
+
+書本《Express.js Guide》：
+
+http://expressjsguide.com
+
+有任何問題、建議或回饋？
+
+https://github.com/azat-co/expressworks/issues
+
+其他超強的 workshop： http://nodeschool.io

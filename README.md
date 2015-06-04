@@ -174,4 +174,3 @@ Write a route that extracts data from query string in the GET `/search` URL rout
 ## JSON Me
 
 Write a server that reads a file (file name is passed in `process.argv[3]`), parses it to JSON and outputs the content to the user with `res.json(object)`.
-
