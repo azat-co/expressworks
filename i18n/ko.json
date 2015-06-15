@@ -1,0 +1,26 @@
+{
+  "title": "Express.js를 즐겁게 마스터하세요!",
+  "subtitle": "\u001b[23m연습 문제를 선택하고 \u001b[3m엔터\u001b[23m를 눌러 시작하세요",
+  "common": {
+    "exercise": {
+      "fail": {
+        "connection": "{{{address}}}에 접속할 수 없습니다. {{{message}}}"
+      }
+    }
+  },
+  "exercises": {
+    "good_old_form": {
+      "source": "Express.js는 멋짐!"
+    }
+  },
+  "exercise": {
+    "HELLO WORLD!": "헬로우 월드!",
+    "JADE": "JADE",
+    "GOOD OLD FORM": "전통적인 폼",
+    "STATIC": "스태틱",
+    "STYLISH CSS": "스타일리시 CSS",
+    "PARAM PAM PAM": "PARAM PAM PAM",
+    "WHAT'S IN QUERY": "쿼리에 뭐가 있나",
+    "JSON ME": "JSON 주세요"
+  }
+}
