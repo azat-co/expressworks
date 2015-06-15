@@ -9,6 +9,7 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 * English
 * French
+* Traditional Chinese
 * Korean
 
 ## Contributors
