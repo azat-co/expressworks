@@ -5,6 +5,12 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/hello-world.png)
 
+## Languages
+
+* English
+* French
+* Korean
+
 ## Contributors
 
 
