@@ -7,7 +7,7 @@ For instance, if the server recieves
 PUT /message/526aa677a8ceb64569c9d4fb
 ```
 
-it will respond with a hash the current date (as a string) and the id.
+it will respond with a hash of the current date (as a string) and the id.
 
 This could be computed like so:
 
