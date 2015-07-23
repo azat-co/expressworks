@@ -1,4 +1,4 @@
-Créez une application Express.js qui affiche « Bonjour monde ! » lorsqu’on
+Créez une application Express.js qui affiche « Bonjour, monde ! » lorsqu’on
 va sur `/home`.
 
 Le numéro de port vous sera fourni par {appname} comme premier argument de la
