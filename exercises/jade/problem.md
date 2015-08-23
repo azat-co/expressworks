@@ -4,6 +4,12 @@ The homepage should respond to `/home`.
 
 The view should show the current date using `toDateString`.
 
+Install the jade templating engine:
+
+```bash
+$ npm install jade
+```
+
 -----------------------------
 
 ## HINTS
