@@ -1,4 +1,4 @@
-Write a route that extracts data from query string in the GET `'/search'` URL
+Write a route that extracts data from the query string in the GET `'/search'` URL
 route, e.g. `?results=recent&include_tabs=true` and then outputs it back to
 the user in JSON format.
 
@@ -6,7 +6,7 @@ the user in JSON format.
 
 ## HINTS
 
-In Express.js to extract query string parameters, we can use:
+In Express.js, to extract query string parameters, we can use:
 
 ```js
 req.query.NAME
