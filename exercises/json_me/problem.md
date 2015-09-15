@@ -18,7 +18,7 @@ Everything should match the `'/books'` resource path.
 
 ## HINTS
 
-For reading, there's an fs module, e.g.,
+For reading the file, use the fs module, e.g.,
 
 ```js
 fs.readFile(filename, callback)
