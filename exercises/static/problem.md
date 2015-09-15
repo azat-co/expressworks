@@ -1,4 +1,4 @@
-Apply static middleware to serve `index.html` file without any routes.
+Apply static middleware to serve the file `index.html` without any routes.
 
 Your solution must listen on the port number supplied by `process.argv[2]`.
 
