@@ -1,6 +1,6 @@
-Create an Express.js app with a home page rendered by Jade template engine.
+Create an Express.js app with a home page rendered by the Jade template engine.
 
-The homepage should respond to `/home`.
+The home page should respond to `/home`.
 
 The view should show the current date using `toDateString`.
 
@@ -15,7 +15,7 @@ h1 Hello World
 p Today is #{date}.
 ```
 
-This is how to specify path in a typical Express.js app when the folder is
+This is how to specify the path in a typical Express.js app when the folder is
 `'templates'`:
 
 ```js
@@ -23,7 +23,7 @@ app.set('views', path.join(__dirname, 'templates'))
 ```
 
 However, to use our `index.jade`, the path to `index.jade` will be provided as
-`process.argv[3]`.  You are welcome to use your own jade file!
+`process.argv[3]`.  You are welcome to use your own Jade file!
 
 To tell Express.js app what template engine to use, apply this line to the
 Express.js configuration:

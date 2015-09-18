@@ -1,5 +1,5 @@
 Create an Express.js server that processes PUT `'/message/:id'` requests
-and produces an SHA1 hash of the current date with the id.
+and produces a SHA-1 hash of the current date with the id.
 
 For instance, if the server recieves
 
@@ -24,13 +24,13 @@ require('crypto')
 
 Express.js apps can also be mounted to paths that contain a variable by
 prepending a `:` to the beginning of a variable name. For instance, in 
-the following, `app` handles PUT requests any subdirectory of `/path/`:
+the following, `app` handles PUT requests in any subdirectory of `/path/`:
 
 ```js
 app.put('/path/:NAME', function(req, res){ /* ... */ });
 ```
 
-The given variable is then stored in the `req.params`. So, to extract
+The given variable is then stored in `req.params`. So, to extract
 parameters from within the request handlers, use:
 
 ```js

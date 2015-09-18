@@ -5,6 +5,8 @@ the application, ie. `process.argv[2]`.
 
 Run `$ killall node`  before verifying exercises (in your terminal on Mac OS X) to end any previous processes. For Windows, use `taskkill /IM node.exe`.
 
+Don't forget to install the Express module if you haven't already. `npm install express --save`
+
 -----------------------------
 
 ## HINTS
