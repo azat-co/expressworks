@@ -1,7 +1,7 @@
 Create an Express.js server that processes PUT `'/message/:id'` requests
 and produces a SHA-1 hash of the current date with the id.
 
-For instance, if the server recieves
+For instance, if the server receives
 
 ```
 PUT /message/526aa677a8ceb64569c9d4fb
