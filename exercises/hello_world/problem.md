@@ -5,7 +5,13 @@ the application, i.e., `process.argv[2]`.
 
 Run `$ killall node`  before verifying exercises (in your terminal on Mac OS X) to end any previous processes. For Windows, use `taskkill /IM node.exe` in Command Prompt.
 
-Don't forget to install the Express module if you haven't already. `npm install express --save`
+For Windows, use "taskkill /IM node.exe" in Command Prompt.
+
+Don't forget to install the Express module if you haven't already.
+
+```
+$ npm install express --save
+```
 
 -----------------------------
 
@@ -23,7 +29,7 @@ app.get('/', function(req, res) {
 app.listen(3000)
 ```
 
-Please use `process.argv[2]` instead of a fixed port number:
+In your solution, please use `process.argv[2]` instead of a fixed port number:
 
 ```js
 app.listen(process.argv[2])

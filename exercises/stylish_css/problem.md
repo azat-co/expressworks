@@ -1,5 +1,7 @@
-Style the HTML from the "STATIC" exercise using Stylus middleware. [Stylus]
-(https://github.com/stylus/stylus) generates .css files on-the-fly from
+HTML without styles is boring so this exercise will teach you how to use Stylus with Express on the fly.
+
+Style the HTML from the "STATIC" exercise using Stylus middleware.
+Stylus <https://github.com/stylus/stylus> generates .css files on-the-fly from
 .styl files.
 
 Your solution should listen on the port supplied by `process.argv[2]` for 
@@ -50,5 +52,5 @@ For your own projects, Stylus needs to be installed like any other
 dependency:
 
 ```sh
-npm install stylus
+$ npm install stylus
 ```
