@@ -2,9 +2,9 @@ Create an Express.js app with a home page rendered by the Jade template engine.
 
 The home page should respond to `/home`.
 
-The view should show the current date using "new Date.toDateString()".
+The view should show the current date using 'new Date.toDateString()'.
 
-We use "toDateString()" to simply return the date in a human-readable format
+We use 'toDateString()' to simply return the date in a human-readable format
 without the time.
 
 -----------------------------
@@ -27,7 +27,7 @@ This is how you can specify the path to the template files in the folder `templa
 app.set('views', path.join(__dirname, 'templates'))
 ```
 
-The __dirname is the absolute path of this file and path.join is used to produce cross-platform path (Win vs. Linux/Mac).
+The `__dirname` is the absolute path of this file and path.join is used to produce cross-platform path (Win vs. Linux/Mac).
 
 To tell Express.js app what template engine to use, apply this line to the
 Express.js configuration:
@@ -51,6 +51,6 @@ without the time.
 ## NOTE
 
 When creating your projects from scratch, install the `jade` dependency with npm.
-If you run npm install on this package (expressworks), you should have jade installed.
+If you run `$ npm install` on this package (expressworks), you should have jade installed.
 
 Again, the port to use is passed by {appname} to the application as `process.argv[2]`.

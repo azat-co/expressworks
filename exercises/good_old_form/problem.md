@@ -1,9 +1,7 @@
+Forms are important. This exercise will teach you how to process the traditional (non-AJAX) web form.
+
 Write a route (`'/form'`) that processes HTML form input
 (`<form><input name="str"/></form>`) and prints the value of `str` backwards.
-
------------------------------
-
-## HINTS
 
 To handle a POST request, use the `post()` method which is used the same way as `get()`:
 
@@ -16,7 +14,7 @@ Express.js uses middleware to provide extra functionality to your web server.
 Simply put, a middleware is a function invoked by Express.js before your own
 request handler.
 
-Middlewares provide a large variety of functionality such as logging, serving
+Middleware provide a large variety of functionality such as logging, serving
 static files, and error handling.
 
 A middleware is added by calling `use()` on the application and passing the
@@ -30,6 +28,19 @@ var bodyparser = require('body-parser')
 app.use(bodyparser.urlencoded({extended: false}))
 ```
 
+
+-----------------------------
+
+## HINTS
+
+Here is how we can print characters backwards (just one way to do it):
+
+```js
+req.body.str.split('').reverse().join('')
+```
+
+Extended set to true (qs) or false (querystring) determines the parser module.
+
 Read more about Connect middleware here:
 
   https://github.com/senchalabs/connect#middleware
@@ -38,11 +49,6 @@ The documentation of the body-parser module can be found here:
 
   https://github.com/expressjs/body-parser
 
-Here is how we can print characters backwards:
-
-```js
-req.body.str.split('').reverse().join('')
-```
 
 -----------------------------
 
