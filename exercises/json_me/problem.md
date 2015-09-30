@@ -1,4 +1,4 @@
-Write a server that, when it recieves a GET, reads a file, parses it to JSON,
+Write a server that, when it receives a GET, reads a file, parses it to JSON,
 and responds with that content to the user.
 
 The server should respond to any GET that matches the `'/books'` resource path.

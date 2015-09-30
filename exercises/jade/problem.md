@@ -8,22 +8,23 @@ The view should show the current date using `toDateString`.
 
 ## HINTS
 
-The Jade template file index.jade is already provided:
+The Jade template file index.jade must look like this:
 
 ```jade
 h1 Hello World
 p Today is #{date}.
 ```
 
-This is how to specify the path in a typical Express.js app when the folder is
-`'templates'`:
+You can use our `index.jade` (reccommended). The path to `index.jade` will be provided in
+`process.argv[3]`. Of course, you are welcome to use your own Jade file. Just make sure it's exactly the same as ours.
+
+This is how you can specify the path to the template files in the folder `templates`:
 
 ```js
 app.set('views', path.join(__dirname, 'templates'))
 ```
 
-However, to use our `index.jade`, the path to `index.jade` will be provided as
-`process.argv[3]`.  You are welcome to use your own Jade file!
+The __dirname is the absolute path of this file and path.join is used to produce cross-platform path (Win vs. Linux/Mac).
 
 To tell Express.js app what template engine to use, apply this line to the
 Express.js configuration:
@@ -33,7 +34,7 @@ app.set('view engine', 'jade')
 ```
 
 Instead of Hello World's `res.end()`, the `res.render()` function accepts
-a template name and presenter data:
+a template name and data (called locals):
 
 ```js
 res.render('index', {date: new Date().toDateString()})
@@ -47,5 +48,6 @@ without the time.
 ## NOTE
 
 When creating your projects from scratch, install the `jade` dependency with npm.
+If you run npm install on this package (expressworks), you should have jade installed.
 
 Again, the port to use is passed by {appname} to the application as `process.argv[2]`.
