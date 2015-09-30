@@ -1,9 +1,14 @@
 expressworks
 ============
 
-Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper) and inspired by [stream-adventure](https://github.com/substack/stream-adventure) by [@substack](https://twitter.com/substack) and [@maxogden](https://twitter.com/maxogden). ExpressWorks will provide you with tasks and hints. You write the solutions to these problems. Then, after you wrote a solution as an Express.js app, ExpressWorks will verify your solution to the problem.
+Express.js from the author of one of the best books on Express.js—Pro Express.js—workshop to teach you basics of Express.js. This workshop is based on [workshopper](https://github.com/rvagg/workshopper) and inspired by [stream-adventure](https://github.com/substack/stream-adventure) by [@substack](https://twitter.com/substack) and [@maxogden](https://twitter.com/maxogden). ExpressWorks will provide you with tasks and hints. You write the solutions to these problems. Then, after you wrote a solution as an Express.js app, ExpressWorks will verify your solution to the problem.
 
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/hello-world.png)
+
+
+This workshop is brought to you by the author of [Pro Express.js](http://proexpressjs.com) (Apress 2014) [Azat Mardan](http://azat.co).
+
+[![](images/cover.jpg)](http://proexpressjs.com)
 
 ## Languages
 
@@ -46,9 +51,9 @@ Express.js workshop based on [workshopper](https://github.com/rvagg/workshopper)
 
 Make a PR to see your name here. ;-)
 
-PS: via `git shortlog -n -s`
+PS: via `$ git shortlog -n -s`
 
-## Installation (recommended)
+## Installation (Recommended)
 
 Recommended global installation:
 
@@ -76,9 +81,17 @@ $ cd node_modules/expressworks
 $ node expressworks
 ```
 
+Optional:
+
+```
+$ npm link
+$ expressworks
+```
+
 # Usage
+
 *Note*: ExpressWorks depends on a local copy of express being available. Make sure to do
-`npm install express` to do the exercises.
+`$ npm install express` to do the exercises.
 
 ExpressWorks understands these commands:
 
