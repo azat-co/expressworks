@@ -6,7 +6,7 @@ the user in JSON format.
 
 Use app.get('/search', function(){...}) for the route.
 
-In Express.js, to extract query string parameters, we can use (in side the request handler):
+In Express.js, to extract query string parameters, we can use (inside the request handler):
 
 ```js
 req.query.NAME
