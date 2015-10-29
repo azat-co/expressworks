@@ -118,16 +118,21 @@ Usage
   expressworks verify program.js
     Verify your program against the expected output.
 ```
+
 # Offline setup
 
-If you would like to setup all node packages beforehand so you can complete this workshop offline, here are all the modules to install:
+If you would like to setup all node packages beforehand so you can complete this workshop offline. Here are all the modules to install with exact versions that this workshop supports:
 
 ```bash
-    npm install jade
-    npm install body-parser
-    npm install stylus
+$ npm install express@4.11.2
+$ npm install jade@1.9.2
+$ npm install body-parser@1.12.0
+$ npm install stylus@0.50.0
 ```
-    
+
+Note: You need to have `node_modules` or `packagen.json` in your project folder before installing dependencies. Run `$ mkdir node_modules` or `$ npm init` to create one of them.
+
+
 # Reset
 
 If you want to reset the list of completed tasks, clean the `~/.config/expressworks/completed.json` file.
