@@ -53,6 +53,7 @@ This workshop is brought to you by the author of [Pro Express.js](http://proexpr
      1  Rich Trott
      1  Richard Kho
      1  Ryan Kois
+     1  Robbie Holmes
 ```
 
 Make a PR to see your name here. ;-)
@@ -117,7 +118,16 @@ Usage
   expressworks verify program.js
     Verify your program against the expected output.
 ```
+# Offline setup
 
+If you would like to setup all node packages beforehand so you can complete this workshop offline, here are all the modules to install:
+
+```bash
+    npm install jade
+    npm install body-parser
+    npm install stylus
+```
+    
 # Reset
 
 If you want to reset the list of completed tasks, clean the `~/.config/expressworks/completed.json` file.
