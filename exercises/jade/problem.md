@@ -18,7 +18,7 @@ h1 Hello World
 p Today is #{date}.
 ```
 
-You can use our `index.jade` (reccommended). The path to `index.jade` will be provided in
+You can use our `index.jade` (recommended). The path to `index.jade` will be provided in
 `process.argv[3]`. Of course, you are welcome to use your own Jade file. Just make sure it's exactly the same as ours.
 
 This is how you can specify the path to the template files in the folder `templates`:
