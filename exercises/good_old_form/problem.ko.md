@@ -1,9 +1,7 @@
+폼은 중요합니다. 이 연습문제는 어떻게 전통적인(ajax가 아닌) 웹 폼을 처리하는지 알려줄 것입니다.
+
 HTML 폼(`<form><input name="str"/></form>`) 입력을 처리하고 `str` 값을 뒤집어
 출력하는 `'/form'` 경로를 작성하세요.
-
------------------------------
-
-## 힌트
 
 POST 요청을 다루기 위해 `get()`과 사용법이 같은 `post()` 메소드를 사용합니다.
 
@@ -29,6 +27,18 @@ var bodyparser = require('body-parser')
 app.use(bodyparser.urlencoded({extended: false}))
 ```
 
+-----------------------------
+
+## 힌트
+
+문자열을 뒤집는 방법은 다음과 같습니다. (그냥 방법중 하나일 뿐입니다)
+
+```js
+req.body.str.split('').reverse().join('')
+```
+
+extended는 true (qs)나 false (querystring)로 설정해 파서 모듈을 결정합니다.
+
 미들웨어를 연결하는 방법은 여기서 보실 수 있습니다.
 
   https://github.com/senchalabs/connect#middleware
@@ -37,13 +47,7 @@ body-parser 모듈의 문서는 여기서 보실 수 있습니다.
 
   https://github.com/expressjs/body-parser
 
-이렇게 하면 문자들을 뒤집을 수 있습니다.
-
-```js
-req.body.str.split('').reverse().join('')
-```
-
------------------------------
+----------------------------
 
 ## 주의
 
