@@ -10,11 +10,17 @@ ExpressWorks will provide you with tasks and hints. You write the solutions to t
 ![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/screen.png)
 
 
-
 [![](https://raw.github.com/azat-co/expressworks/master/images/cover.jpg)](http://proexpressjs.com)
 
 
+
 This workshop is brought to you by the author of [Pro Express.js](http://proexpressjs.com) (Apress 2014) [Azat Mardan](http://azat.co).
+
+## Cheatsheet
+
+You might want to download [the free Express.js cheatsheet](https://gumroad.com/l/NQiQ/git-874E6FB4) before embarking on a journey, or [view it online](https://gumroad.com/l/NQiQ/git-874E6FB4).
+
+
 
 ## Languages
 
@@ -27,57 +33,51 @@ This workshop is brought to you by the author of [Pro Express.js](http://proexpr
 
 
 ```
-    19  Christophe Porteneuve
-     8  Justin Porter
-     6  billy3321
-     3  Harry Moreno
-     3  Charlotte Spencer
-     2  Kevin Jayanthan
-     2  Thomas Burette
-     2  Julian Mazzitelli
-     2  intrueder
-     2  Kohei TAKATA
-     1  Timothy Gu
-     1  Wojciech Gawronski
-     1  brownman
-     1  Alessandro Lensi
-     1  raj
-     1  Ayman Mahfouz
-     1  Daniel Geier
-     1  Dylan Smith
-     1  Finn
-     1  Giuseppe
-     1  Jessie Shi
-     1  Jonny Arnold
-     1  Louis Pilfold
-     1  Rich Trott
-     1  Richard Kho
-     1  Ryan Kois
-     1  Robbie Holmes
+19  Christophe Porteneuve
+10  Tyler Moeller
+ 8  Justin Porter
+ 6  billy3321
+ 3  Charlotte Spencer
+ 3  Harry Moreno
+ 2  Kohei TAKATA
+ 2  Austin Corso
+ 2  Robbie Holmes
+ 2  Shim Won
+ 2  Thomas Burette
+ 2  Julian Mazzitelli
+ 2  Kevin Jayanthan
+ 2  intrueder
+ 1  Timothy Gu
+ 1  Trevor Whitney
+ 1  Wojciech Gawronski
+ 1  brownman
+ 1  raj
+ 1  Alessandro Lensi
+ 1  swisherb
+ 1  Alfredo Miranda
 ```
 
 Make a PR to see your name here. ;-)
 
-PS: via `$ git shortlog -n -s`
+PS: via `$ git shortlog -n -s`. Please add yourself to the list when making a pull request.
 
 ## Installation (Recommended)
 
 Recommended global installation:
 
 ```bash
-$ npm install express
 $ npm install -g expressworks
 $ expressworks
 ```
-
 
 If you see errors, try:
 
 ```bash
 $ sudo npm install -g expressworks
+$ expressworks
 ```
 
-## Local Installation (advanced)
+## Local Installation (Advanced)
 
 Run & install locally:
 
@@ -88,7 +88,7 @@ $ cd node_modules/expressworks
 $ node expressworks
 ```
 
-Optional:
+Optional step that gives your the global command (`expressworks`) in the Terminal/command prompt:
 
 ```
 $ npm link
@@ -97,8 +97,18 @@ $ expressworks
 
 # Usage
 
-*Note*: ExpressWorks depends on a local copy of express being available. Make sure to do
-`$ npm install express` to do the exercises.
+```
+$ expressworks
+```
+
+*Note*: ExpressWorks depends on a local copy of Express being available in your project folder.  To do the exercises, make sure to install the Express.js with
+
+```
+$ npm init
+$ npm install express@4.11.2
+```
+
+See Offline Setup for more required dependencies.
 
 ExpressWorks understands these commands:
 
@@ -119,9 +129,9 @@ Usage
     Verify your program against the expected output.
 ```
 
-# Offline setup
+# Offline Setup
 
-If you would like to setup all node packages beforehand so you can complete this workshop offline. Here are all the modules to install with exact versions that this workshop supports:
+If you would like to setup all node packages beforehand, you can complete this workshop offline. Here are all the modules to install with exact versions that this workshop supports:
 
 ```bash
 $ npm install express@4.11.2
@@ -141,7 +151,7 @@ If you want to reset the list of completed tasks, clean the `~/.config/expresswo
 
 # More Information
 
-Check out [Express.js Guide](http://expressjsguide.com).
+Check out [Express.js Guide](http://expressjsguide.com), [Pro Express.js](http://proexpressjs.com) and [FREE Express.js cheatsheet](https://gumroad.com/l/NQiQ/git-874E6FB4).
 
 # Steps
 
