@@ -1,5 +1,7 @@
+스타일 없는 HTML은 지루합니다. 이 연습 문제에서는 어떻게 Stylus를 Express에서 사용하는지 알려 드리겠습니다.
+
 "스태틱" 연습 문제에 Stylus 미들웨어를 사용해 HTML에 스타일을 넣어보겠습니다.
-[Stylus](https://github.com/stylus/stylus)는 .styl 파일에서 .css 파일을
+Stylus <https://github.com/stylus/stylus>는 .styl 파일에서 .css 파일을
 생성합니다.
 
 해결책은 `GET` 요청을 처리하기 위해  `process.argv[2]`로 넘겨진 포트 번호를
@@ -38,7 +40,7 @@ p
 이렇게 하시면 됩니다.
 
 ```js
-app.use(require('stylus').middleware( "/path/to/*.styl" ));
+app.use(require('stylus').middleware('/path/to/*.styl'))
 ```
 
 "스태틱" 연습 문제에서 만든 것 이외에도, 정적 파일을 제공할 필요가 있습니다.
@@ -49,5 +51,5 @@ app.use(require('stylus').middleware( "/path/to/*.styl" ));
 프로젝트에서 사용하려면 다른 의존성과 마찬가지로 Stylus도 설치해야 합니다.
 
 ```sh
-npm install stylus
+$ npm install stylus
 ```
