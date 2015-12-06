@@ -57,7 +57,7 @@ function query (mode) {
     superagent
       .post(url)
       .type('form')
-      .send({str: text})
+      .send('str='+text)
       .pipe(stream)
   }
 
