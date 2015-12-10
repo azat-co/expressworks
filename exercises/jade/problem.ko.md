@@ -11,7 +11,7 @@ Jade 템플릿 엔진으로 렌더되는 홈페이지를 가지는 Express.js �
 
 ## 힌트
 
-Jade 템플릿 파일 index.jade는 이런 내용이어야 합니다.
+Jade 템플릿 파일 `index.jade` 는 이런 내용이어야 합니다.
 
 ```jade
 h1 Hello World
