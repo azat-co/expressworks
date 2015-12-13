@@ -7,6 +7,8 @@ var path          = require('path')
   , comparestdout = require('workshopper-exercise/comparestdout')
   , rndport       = require('../../lib/rndport');
 
+fs = require('fs')
+
 // checks that the submission file actually exists
 exercise = filecheck(exercise)
 
@@ -52,7 +54,10 @@ function query (mode) {
 
   function connect (port, stream) {
     var url = 'http://localhost:' + port + '/main.css'
-
+    try {
+      fs.unlinkSync(path.join(__dirname, 'public', 'main.css'))
+    } catch(e) {
+    }
     superagent.get(url)
       .on('error', function (err) {
         exercise.emit(
@@ -61,12 +66,15 @@ function query (mode) {
         )
       })
       .pipe(stream)
+
   }
 
   connect(this.submissionPort, this.submissionStdout)
 
-  if (mode == 'verify')
+  if (mode == 'verify') {
     connect(this.solutionPort, this.solutionStdout)
+  }
+
 }
 
 module.exports = exercise
