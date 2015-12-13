@@ -11,7 +11,7 @@ without the time.
 
 ## HINTS
 
-The Jade template file index.jade must look like this:
+The Jade template file `index.jade` must look like this:
 
 ```jade
 h1 Hello World
