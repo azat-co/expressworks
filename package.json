@@ -1,6 +1,10 @@
 {
   "name": "expressworks",
+<<<<<<< 32a2cabcf4c0bc01f9de84fbaade7131e8aaf457
   "version": "3.2.1",
+=======
+  "version": "3.1.3",
+>>>>>>> 3.1.3
   "description": "Express.js workshop based on workshopper and inspired by stream-adventure by @substack and @maxogden.",
   "main": "expressworks.js",
   "author": "Azat Mardan (@azat_co)",
