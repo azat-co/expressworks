@@ -49,6 +49,7 @@ The documentation of the body-parser module can be found here:
 
   https://github.com/expressjs/body-parser
 
+Videos: http://bit.ly/1jW1sBf.
 
 -----------------------------
 

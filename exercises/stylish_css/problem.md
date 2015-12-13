@@ -54,3 +54,5 @@ dependency:
 ```sh
 $ npm install stylus
 ```
+
+Videos: http://bit.ly/1jW1sBf.

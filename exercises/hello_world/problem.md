@@ -34,3 +34,5 @@ In your solution, please use `process.argv[2]` instead of a fixed port number:
 ```js
 app.listen(process.argv[2])
 ```
+
+Videos: http://bit.ly/1jW1sBf.

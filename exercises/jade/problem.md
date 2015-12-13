@@ -56,3 +56,5 @@ If you run `$ npm install` on this package (expressworks), you should have jade 
 Again, the port to use is passed by {appname} to the application as `process.argv[2]`.
 
 If you receive `Error: Cannot find module 'jade'`, it is because Express is looking for Jade relative to its path. You can fix this by running `npm install jade`.
+
+Videos: http://bit.ly/1jW1sBf.

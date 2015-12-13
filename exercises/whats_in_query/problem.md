@@ -23,3 +23,5 @@ To output JSON we can use:
 ```js
 res.send(object)
 ```
+
+Videos: http://bit.ly/1jW1sBf.
