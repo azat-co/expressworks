@@ -30,6 +30,7 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
 * French
 * Traditional Chinese
 * Korean
+* Japanese
 
 ## Contributors
 
