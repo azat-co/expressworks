@@ -10,6 +10,6 @@ function fpath (f) {
 Workshopper({
     name      : 'expressworks'
   , appDir    : __dirname
-  , languages : ['en', 'fr', 'ko']
+  , languages : ['en', 'fr', 'ko', 'zh-tw']
   , helpFile  : fpath('./i18n/help/{lang}.txt')
 })
