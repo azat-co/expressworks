@@ -44,15 +44,15 @@ req.body.str.split('').reverse().join('')
 
 -----------------------------
 
-## NOTE
+## 注意
 
-When creating your projects from scratch, install the `body-parser` dependency
-with npm by running:
+在第一次執行你所建立的專案時，請先安裝 `body-parser` 相依套件
+在你的終端機上透過 npm 執行:
 
 ```sh
 $ npm install body-parser
 ```
 
-…in your terminal.
 
-Again, the port to use is passed {appname} to the application as `process.argv[2]`.
+
+再次提醒，{appname} 會將聆聽的 port 放在第一個參數，如 `process.argv[2]` 。
