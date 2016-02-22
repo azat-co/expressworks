@@ -23,3 +23,5 @@ JSONを出力するには、以下のように記述します。
 ```js
 res.send(object)
 ```
+
+動画: http://bit.ly/1jW1sBf.

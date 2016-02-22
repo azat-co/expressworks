@@ -2,9 +2,9 @@ Jadeというテンプレートエンジンを使用してホームページの�
 
 ホームページは `/home` へのアクセスに対してレスポンスを返します。
 
-そして、 'new Date.toDateString()' を使用して現在の日時を表示してください。
+そして、 'new Date.toDateString()' を使用して現在の日付を表示してください。
 
-人が理解できるフォーマットで日時を単純に返すために、 'toDateString()' を使用します。
+人が理解できるフォーマットで時刻を含まない日付を返すために、 シンプルに 'toDateString()' を使用します。
 
 -----------------------------
 
@@ -40,7 +40,7 @@ Hello Worldの `res.end()` の代わりに、 `res.render()` 関数を使用し�
 res.render('index', {date: new Date().toDateString()})
 ```
 
-人が理解できるフォーマットで日時を単純に返すために、 'toDateString()' を使用します。
+人が理解できるフォーマットで時刻を含まない日付を返すために、 シンプルに 'toDateString()' を使用します。
 
 --------------------------------
 
@@ -53,3 +53,5 @@ res.render('index', {date: new Date().toDateString()})
 
 `Error: Cannot find module 'jade'` というエラーメッセージが出力された場合は、ExpressはJadeを見つけられていません。
 `npm install jade` コマンドを実行することでこれを修正することができます。
+
+Videos: http://bit.ly/1jW1sBf.

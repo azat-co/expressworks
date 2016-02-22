@@ -5,7 +5,7 @@
 事前に動作させていたプロセスを終了させるために、 `verify` を行う前にMac OS Xのターミナルで `$ killall node`　コマンドを実行してください。
 Windowsの場合はコマンドプロンプトで "taskkill /IM node.exe" コマンドを使用してください。
 
-以下のコマンドでExpressモジュールをインストールすることを忘れないでください。
+もしまだであれば、以下のコマンドでExpressモジュールをインストールすることを忘れないでください。
 
 ```
 $ npm install express --save
@@ -32,3 +32,5 @@ app.listen(3000)
 ```js
 app.listen(process.argv[2])
 ```
+
+動画: http://bit.ly/1jW1sBf.

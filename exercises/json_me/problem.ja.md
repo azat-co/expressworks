@@ -34,3 +34,6 @@ object = JSON.parse(string)
 ```
 
 `fs` モジュールはインストールする必要はありません。Node.jsのプラットフォームの中のコアの一部だからです。
+
+
+動画: http://bit.ly/1jW1sBf.

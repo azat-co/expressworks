@@ -35,3 +35,5 @@ app.use(express.static(path.join(__dirname, 'public')))
 ```js
 app.use(express.static(process.argv[3] || path.join(__dirname, 'public')))
 ```
+
+動画: http://bit.ly/1jW1sBf.

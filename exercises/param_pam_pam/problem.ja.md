@@ -2,7 +2,7 @@
 例えば、 `/message/526aa677a8ceb64569c9d4fb` のようなリクエストを受けた際に、
 メッセージのIDとなる値を抽出する方法を知っていないといけません。
 
-`/message/:id` というPUTリクエストを投げるExpress.jsのサーバーを作成し、
+`/message/:id` というPUTリクエストを処理するExpress.jsのサーバーを作成し、
 現在日時とURLから取得したIDを組み合わせたSHA-1ハッシュを生成してください。
 
 例えば、サーバーが
@@ -56,3 +56,5 @@ app.get('/message/:id', function (req, res, next) {
   console.log(req.id)
   next()
 })
+
+動画: http://bit.ly/1jW1sBf.
