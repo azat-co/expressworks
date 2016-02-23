@@ -1,0 +1,17 @@
+ExpressWorksへようこそ！ — Express.jsフレームワークの自動化されたワークショップです。
+workshopperに基づいたExpress.jsのワークショップです。@substackや@maxogdenのstream-adventureにインスパイアされました。
+
+APIドキュメント:
+
+http://expressjs.com/api.html
+
+Express.jsのガイド:
+
+http://expressjsguide.com
+
+
+問題や提案やフィードバックがある場合
+
+https://github.com/azat-co/expressworks/issues
+
+他の素晴らしいworkshop達: http://nodeschool.io
