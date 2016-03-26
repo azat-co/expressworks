@@ -43,6 +43,12 @@ It'll look something like this:
 app.use(require('stylus').middleware('/path/to/*.styl' ))
 ```
 
+You just with the folder or a path to a folder
+
+```js
+app.use(require('stylus').middleware('public' ))
+```
+
 In addition to producing in the "STATIC" exercise, you'll need to serve static files.
 Remember that middleware is executed in the order `app.use` is called!
 
