@@ -24,13 +24,13 @@ The `index.html` file is provided and usable via the path supplied by
 
 ## HINTS
 
-This is how you can call static middleware:
+This is how you can call static middleware assuming your static folder is `public` and it's in the same folder as the main project file:
 
 ```js
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static('public'))
 ```
 
-For this exercise {appname} will pass you the path:
+For this exercise {appname} will pass you the path in the CLI argument `process.argv[3]`. You can create a logical OR condition to use the CLI argument value or fallback to the absolute path to the `public` folder. The path is constructed with `path.join()`:
 
 ```js
 app.use(express.static(process.argv[3] || path.join(__dirname, 'public')))
