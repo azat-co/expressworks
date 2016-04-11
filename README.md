@@ -1,7 +1,7 @@
 expressworks
 ============
 
-**Video screencasts** which walk your through setup and problems (spoiler alert): [YouTube ExpressWorks](https://www.youtube.com/watch?v=C2IqQOLCCoU&list=PLguYmmjtxbWGwQRxXqMTQCj6FNb55aFVo). 📺💻😁
+**Video screencasts** which walk you through setup and problems (spoiler alert): [YouTube ExpressWorks](https://www.youtube.com/watch?v=C2IqQOLCCoU&list=PLguYmmjtxbWGwQRxXqMTQCj6FNb55aFVo). 📺💻😁
 
 Learn Express.js from the author of one of the best books on Express.js—[Pro Express.js](http://proexpressjs.com)—workshop to teach you basics of Express.js.
 
@@ -75,6 +75,7 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
  1  Rich Trott
  1  Richard Kho
  1  Ryan Kois
+ 1  Marlo Major
 ```
 
 Make a PR to see your name here. ;-)
