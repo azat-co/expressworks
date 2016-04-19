@@ -1,22 +1,27 @@
 expressworks
 ============
 
-**Video screencasts** which walk your through setup and problems (spoiler alert): [YouTube ExpressWorks](https://www.youtube.com/watch?v=C2IqQOLCCoU&list=PLguYmmjtxbWGwQRxXqMTQCj6FNb55aFVo). 📺💻😁
-
 Learn Express.js from the author of one of the best books on Express.js—[Pro Express.js](http://proexpressjs.com)—workshop to teach you basics of Express.js.
+
+
+![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/screen.png)
 
 This workshop is based on [workshopper](https://github.com/rvagg/workshopper) and inspired by [stream-adventure](https://github.com/substack/stream-adventure) by [@substack](https://twitter.com/substack) and [@maxogden](https://twitter.com/maxogden).
 
 ExpressWorks will provide you with tasks and hints. You write the solutions to these problems. Then, after you wrote a solution as an Express.js app, ExpressWorks will verify your solution to the problem.
 
-![Hello World Express.js app](https://raw.github.com/azat-co/expressworks/master/images/screen.png)
+[![https://raw.github.com/azat-co/expressworks/master/images/youtube.jpg]](https://www.youtube.com/watch?v=C2IqQOLCCoU&list=PLguYmmjtxbWGwQRxXqMTQCj6FNb55aFVo)
 
+**Video screencasts** which walk your through setup and problems (spoiler alert): [YouTube ExpressWorks](https://www.youtube.com/watch?v=C2IqQOLCCoU&list=PLguYmmjtxbWGwQRxXqMTQCj6FNb55aFVo). 📺💻😁
 
-[![](https://raw.github.com/azat-co/expressworks/master/images/cover.jpg)](http://proexpressjs.com)
 
 
 
 This workshop is brought to you by the author of [Pro Express.js](http://proexpressjs.com) (Apress 2014) [Azat Mardan](http://azat.co).
+
+[![](https://raw.github.com/azat-co/expressworks/master/images/cover.jpg)](http://proexpressjs.com)
+
+
 
 ## Cheatsheet
 
