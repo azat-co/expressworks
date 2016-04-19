@@ -10,7 +10,7 @@ This workshop is based on [workshopper](https://github.com/rvagg/workshopper) an
 
 ExpressWorks will provide you with tasks and hints. You write the solutions to these problems. Then, after you wrote a solution as an Express.js app, ExpressWorks will verify your solution to the problem.
 
-[![https://raw.github.com/azat-co/expressworks/master/images/youtube.jpg]](https://www.youtube.com/watch?v=C2IqQOLCCoU&list=PLguYmmjtxbWGwQRxXqMTQCj6FNb55aFVo)
+[![](https://raw.github.com/azat-co/expressworks/master/images/youtube.jpg)](https://www.youtube.com/watch?v=C2IqQOLCCoU&list=PLguYmmjtxbWGwQRxXqMTQCj6FNb55aFVo)
 
 **Video screencasts** which walk your through setup and problems (spoiler alert): [YouTube ExpressWorks](https://www.youtube.com/watch?v=C2IqQOLCCoU&list=PLguYmmjtxbWGwQRxXqMTQCj6FNb55aFVo). 📺💻😁
 
