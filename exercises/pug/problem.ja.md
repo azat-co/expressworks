@@ -1,4 +1,4 @@
-Pugというテンプレートエンジンを使用してホームページのレンダリングを行い、Express.jsのアプリケーションを作成しましょう。
+Jadeというテンプレートエンジンを使用してホームページのレンダリングを行い、Express.jsのアプリケーションを作成しましょう。
 
 ホームページは `/home` へのアクセスに対してレスポンスを返します。
 
@@ -10,15 +10,15 @@ Pugというテンプレートエンジンを使用してホームページの�
 
 ## ヒント
 
-Pugのテンプレートファイルであるindex.pugは以下のような形式です。
+Jadeのテンプレートファイルであるindex.jadeは以下のような形式です。
 
-```pug
+```jade
 h1 Hello World
 p Today is #{date}.
 ```
 
-{appname} が提供する `index.pug` を使用することをお勧めします。 `index.pug` へのパスは `process.argv[3]` で取得することができます。
-もちろん、自身で作成したPugファイルを使用することもできます。 {appname} が提供するものと完全に同じであることを確認してください。
+{appname} が提供する `index.jade` を使用することをお勧めします。 `index.jade` へのパスは `process.argv[3]` で取得することができます。
+もちろん、自身で作成したJadeファイルを使用することもできます。 {appname} が提供するものと完全に同じであることを確認してください。
 
 以下は、テンプレートファイルへのパスを `templates` に指定する方法です。
 
@@ -31,7 +31,7 @@ app.set('views', path.join(__dirname, 'templates'))
 Express.jsにどのテンプレートエンジンを使用するか設定するために、以下の行を記述してください。
 
 ```js
-app.set('view engine', 'pug')
+app.set('view engine', 'jade')
 ```
 
 Hello Worldの `res.end()` の代わりに、 `res.render()` 関数を使用して、テンプレートファイルの名前とデータを取得してください。
@@ -46,12 +46,12 @@ res.render('index', {date: new Date().toDateString()})
 
 ## 注意
 
-アプリケーションを新規作成している場合には、 `pug` をnpmを使用してインストールしてください。
-作成したjsファイルがあるディレクトリで `$ npm install` コマンドを実行することで、pugがインストールできます。
+アプリケーションを新規作成している場合には、 `jade` をnpmを使用してインストールしてください。
+作成したjsファイルがあるディレクトリで `$ npm install` コマンドを実行することで、jadeがインストールできます。
 
 再度になりますが、 {appname} からアプリケーションに渡されるポート番号は `process.argv[2]` で取得できます。
 
-`Error: Cannot find module 'pug'` というエラーメッセージが出力された場合は、ExpressはPugを見つけられていません。
-`npm install pug` コマンドを実行することでこれを修正することができます。
+`Error: Cannot find module 'jade'` というエラーメッセージが出力された場合は、ExpressはJadeを見つけられていません。
+`npm install jade` コマンドを実行することでこれを修正することができます。
 
 Videos: http://bit.ly/1jW1sBf.

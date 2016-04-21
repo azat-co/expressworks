@@ -1,5 +1,5 @@
 Créez une application Express.js avec une page d’accueil rendue par le moteur
-de templates Pug.
+de templates Jade.
 
 La page d’accueil devrait répondre à l’URL `/home`.
 
@@ -9,9 +9,9 @@ La vue devrait afficher la date courante en se servant de`toDateString`.
 
 ## CONSEILS
 
-La fichier template Pug `index.pug` est déjà fourni :
+La fichier template Jade `index.jade` est déjà fourni :
 
-```pug
+```jade
 h1 Hello World
 p Today is #{date}.
 ```
@@ -23,15 +23,15 @@ classique :
 app.set('views', path.join(__dirname, 'templates'))
 ```
 
-Toutefois, pour utiliser notre `index.pug`, le chemin de ces fichiers vous
+Toutefois, pour utiliser notre `index.jade`, le chemin de ces fichiers vous
 sera fourni dans `process.argv[3]`.  Naturellement, vous pouvez aussi utiliser
-votre propre fichier Pug !
+votre propre fichier Jade !
 
 Pour dire à Express.js quel moteur de templates à utiliser, appliquez la
 ligne de configuration Express.js suivante :
 
 ```js
-app.set('view engine', 'pug')
+app.set('view engine', 'jade')
 ```
 
 Au lieu du `res.end()` de « Bonjour, monde ! », nous utiliserons la fonction
@@ -49,7 +49,7 @@ des humains dénuée de la partie horaire.
 ## NOTE
 
 Quand on crée des projets à partir de rien, on a besoin d’installer le module
-`pug` avec npm.
+`jade` avec npm.
 
 Pour rappel, le numéro de port à utiliser vous sera fourni par {appname}
 dans `process.argv[2]`.
