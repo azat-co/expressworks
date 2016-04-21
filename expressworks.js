@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
 const Workshopper = require('workshopper')
-    , path        = require('path')
+    , path = require('path');
 
-function fpath (f) {
-  return path.join(__dirname, f)
+function fpath(f) {
+  return path.join(__dirname, f);
 }
 
 Workshopper({
-    name      : 'expressworks'
+  name      : 'expressworks'
   , appDir    : __dirname
   , languages : ['en', 'fr', 'ko', 'zh-tw', 'ja']
   , helpFile  : fpath('./i18n/help/{lang}.txt')
-})
+});

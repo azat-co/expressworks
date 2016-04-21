@@ -32,5 +32,9 @@
     "through2": "^0.6.3",
     "workshopper": "^2.6.0",
     "workshopper-exercise": "^2.5.3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-react": "^5.0.1"
   }
 }
