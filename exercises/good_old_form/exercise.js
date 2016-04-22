@@ -1,10 +1,10 @@
-var qs            = require('querystring');
-  , through2      = require('through2');
-  , superagent    = require('superagent');
-  , exercise      = require('workshopper-exercise')();
-  , filecheck     = require('workshopper-exercise/filecheck');
-  , execute       = require('workshopper-exercise/execute');
-  , comparestdout = require('workshopper-exercise/comparestdout');
+var qs            = require('querystring')
+  , through2      = require('through2')
+  , superagent    = require('superagent')
+  , exercise      = require('workshopper-exercise')()
+  , filecheck     = require('workshopper-exercise/filecheck')
+  , execute       = require('workshopper-exercise/execute')
+  , comparestdout = require('workshopper-exercise/comparestdout')
   , rndport       = require('../../lib/rndport');
 
 // checks that the submission file actually exists
