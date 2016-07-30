@@ -35,10 +35,10 @@ El archivo `index.html`:
 ## PISTAS
 
 Vas a querer incorporar un poco del middleware Stylus usando `app.use()` otra vez.
-Se verá a algo como esto:
+Se parecerá a algo como esto:
 
 ```js
-app.use(require('stylus').middleware('/path/to/folder'))
+app.use(require('stylus').middleware('/ruta/hacia/carpeta'))
 ```
 
 Pista: Puedes utilizar `__dirname` para obtener una ruta absoluta al archivo que se está ejecutando en el momento.
