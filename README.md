@@ -160,7 +160,7 @@ If you would like to setup all node packages beforehand, you can complete this w
 
 ```bash
 $ npm install express@4.11.2
-$ npm install jade@1.9.2
+$ npm install pug@1.9.2
 $ npm install body-parser@1.12.0
 $ npm install stylus@0.50.0
 ```
@@ -187,9 +187,9 @@ Create an Express.js app that runs on localhost:3000, and outputs "Hello World!"
 
 `process.argv[2]` will be provided by expressworks to you, this is the port number.
 
-## Jade
+## Pug
 
-Create an Express.js app with a home page (/home) rendered by jade template engine, that shows current date (toDateString).
+Create an Express.js app with a home page (/home) rendered by pug template engine, that shows current date (toDateString).
 
 
 ## Good Old Form

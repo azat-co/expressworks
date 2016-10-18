@@ -105,9 +105,9 @@ Usage
 
 expressworks 會將聆聽的 port 提供在程式的 `process.argv[2]` 。
 
-## Jade
+## Pug
 
-製作一個在 Home 頁面（/home）以 Jade 模版顯示特定資料（toDateString）的 Express.js app 。
+製作一個在 Home 頁面（/home）以 Pug 模版顯示特定資料（toDateString）的 Express.js app 。
 
 ## Good Old Form
 
