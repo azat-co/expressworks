@@ -48,7 +48,7 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
 10  azat-co
  9  RamiroPinol
  8  Justin Porter
- 7  Elias Meire
+ 8  Elias Meire
  6  billy3321
  4  Kohei TAKATA
  3  Charlotte Spencer
@@ -164,7 +164,7 @@ If you would like to setup all node packages beforehand, you can complete this w
 
 ```bash
 $ npm install express@4.11.2
-$ npm install pug@1.9.2
+$ npm install pug@2.0.0-beta6
 $ npm install body-parser@1.12.0
 $ npm install stylus@0.50.0
 ```
