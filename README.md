@@ -48,8 +48,8 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
 10  azat-co
  9  RamiroPinol
  8  Justin Porter
+ 7  Elias Meire
  6  billy3321
- 5  Elias Meire
  4  Kohei TAKATA
  3  Charlotte Spencer
  3  Harry Moreno
