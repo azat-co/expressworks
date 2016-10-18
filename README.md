@@ -41,29 +41,26 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
 
 
 ```
-95  Azat Mardan
+105  Azat Mardan
+55  Azat Mardanov
 19  Christophe Porteneuve
 10  Tyler Moeller
+10  azat-co
+ 9  RamiroPinol
  8  Justin Porter
  6  billy3321
- 3  Harry Moreno
+ 5  Elias Meire
+ 4  Kohei TAKATA
  3  Charlotte Spencer
- 3  Kohei TAKATA
+ 3  Harry Moreno
+ 2  Austin Corso
  2  Julian Mazzitelli
+ 2  Kevin Jayanthan
  2  Robbie Holmes
  2  Shim Won
  2  Thomas Burette
- 2  Austin Corso
- 2  azat-co
- 2  Kevin Jayanthan
  2  intrueder
- 1  Timothy Gu
- 1  Trevor Whitney
- 1  Wojciech Gawronski
- 1  brownman
- 1  raj
  1  Alessandro Lensi
- 1  swisherb
  1  Alfredo Miranda
  1  Ayman Mahfouz
  1  Daniel Geier
@@ -80,6 +77,13 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
  1  Rich Trott
  1  Richard Kho
  1  Ryan Kois
+ 1  Timothy Gu
+ 1  Trevor Whitney
+ 1  Wojciech Gawronski
+ 1  brownman
+ 1  raj
+ 1  swisherb
+ 1  tdtsh
 ```
 
 Make a PR to see your name here. ;-)
