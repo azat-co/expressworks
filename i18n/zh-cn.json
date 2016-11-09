@@ -1,0 +1,26 @@
+{
+  "title": "精通 Express.js，祝你玩得开心！",
+  "subtitle": "\u001b[23m选择一个挑战并按下 \u001b[3mEnter\u001b[23m 开始！",
+  "common": {
+    "exercise": {
+      "fail": {
+        "connection": "连接到 {{{address}}}: {{{message}}} 失败"
+      }
+    }
+  },
+  "exercises": {
+    "good_old_form": {
+      "source": "Express.js rocks!"
+    }
+  },
+  "exercise": {
+    "HELLO WORLD!": "你好，世界！",
+    "JADE": "JADE",
+    "GOOD OLD FORM": "传统的表单",
+    "STATIC": "静态文件",
+    "STYLISH CSS": "漂亮的 CSS",
+    "PARAM PAM PAM": "参数 啪啪啪",
+    "WHAT'S IN QUERY": "网址的问好后面是什么",
+    "JSON ME": "给我 JSON"
+  }
+}

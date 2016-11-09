@@ -1,0 +1,17 @@
+欢迎来到 ExpressWorks，一个为 Express.js framework 所制作的 workshop。
+
+Express.js workshop 基于 workshopper ，并启迪于 @substack 与 @maxogden 所制作的 stream-adventure。
+
+API 文件：
+
+http://expressjs.com/api.html
+
+图书《Express.js Guide》：
+
+http://expressjsguide.com
+
+有任何问题、建议或反馈？
+
+https://github.com/azat-co/expressworks/issues
+
+其他超強的 workshop： http://nodeschool.io
