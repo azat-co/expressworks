@@ -18,7 +18,7 @@ p
   color red
 ```
 
-`main.styl` 파일은 이렇습니다.
+`index.html` 파일은 이렇습니다.
 
 ```html
 <html>
