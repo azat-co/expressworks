@@ -33,6 +33,7 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
 
 * English
 * French
+* Simplified Chinese
 * Traditional Chinese
 * Korean
 * Japanese
@@ -113,7 +114,7 @@ $ cd node_modules/expressworks
 $ node expressworks
 ```
 
-Optional step that gives your the global command (`expressworks`) in the Terminal/command prompt:
+Optional step that gives you the global command (`expressworks`) in the Terminal/command prompt:
 
 ```
 $ npm link
