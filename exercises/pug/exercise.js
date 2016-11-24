@@ -7,8 +7,6 @@ var path = require('path')
   , comparestdout = require('workshopper-exercise/comparestdout')
   , rndport = require('../../lib/rndport');
 
-fs = require('fs');
-
 // checks that the submission file actually exists
 exercise = filecheck(exercise);
 
@@ -20,8 +18,8 @@ exercise.addSetup(function (mode, callback) {
   this.submissionPort = rndport();
   this.solutionPort = this.submissionPort + 1;
 
-  this.submissionArgs = [this.submissionPort, path.join(__dirname, 'public')];
-  this.solutionArgs = [this.solutionPort, path.join(__dirname, 'public')];
+  this.submissionArgs = [this.submissionPort, path.join(__dirname, 'templates')];
+  this.solutionArgs = [this.solutionPort, path.join(__dirname, 'templates')];
 
   process.nextTick(callback);
 });
@@ -36,7 +34,7 @@ exercise.addProcessor(function (mode, callback) {
   if (mode == 'verify')
     this.solutionStdout = through2();
 
-  setTimeout(query.bind(this, mode), 2000);
+  setTimeout(query.bind(this, mode), 1500);
 
   process.nextTick(function () {
     callback(null, true);
@@ -53,11 +51,8 @@ function query(mode) {
   var exercise = this;
 
   function connect(port, stream) {
-    var url = 'http://localhost:' + port + '/main.css';
-    try {
-      fs.unlinkSync(path.join(__dirname, 'public', 'main.css'));
-    } catch (e) {
-    }
+    var url = 'http://localhost:' + port + '/home';
+
     superagent.get(url)
       .on('error', function (err) {
         exercise.emit(
@@ -66,15 +61,12 @@ function query(mode) {
         );
       })
       .pipe(stream);
-
   }
 
   connect(this.submissionPort, this.submissionStdout);
 
-  if (mode == 'verify') {
+  if (mode == 'verify')
     connect(this.solutionPort, this.solutionStdout);
-  }
-
 }
 
 module.exports = exercise;

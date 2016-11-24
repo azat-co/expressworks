@@ -8,36 +8,36 @@ var qs            = require('querystring')
   , rndport       = require('../../lib/rndport');
 
 // checks that the submission file actually exists
-exercise = filecheck(exercise)
+exercise = filecheck(exercise);
 
 // execute the solution and submission in parallel with spawn()
-exercise = execute(exercise)
+exercise = execute(exercise);
 
 // set up ports to be passed to submission and solution
 exercise.addSetup(function(mode, callback) {
-  this.submissionPort = rndport()
-  this.solutionPort   = this.submissionPort + 1
+  this.submissionPort = rndport();
+  this.solutionPort   = this.submissionPort + 1;
 
-  this.submissionArgs = [this.submissionPort]
-  this.solutionArgs   = [this.solutionPort]
+  this.submissionArgs = [this.submissionPort];
+  this.solutionArgs   = [this.solutionPort];
 
-  process.nextTick(callback)
+  process.nextTick(callback);
 })
 
 // add a processor for both run and verify calls, added *before*
 // the comparestdout processor so we can mess with the stdouts
 exercise.addProcessor(function (mode, callback) {
-  this.submissionStdout.pipe(process.stdout)
+  this.submissionStdout.pipe(process.stdout);
 
   // replace stdout with our own streams
-  this.submissionStdout = through2()
+  this.submissionStdout = through2();
   if (mode == 'verify')
-    this.solutionStdout = through2()
+    this.solutionStdout = through2();
 
   setTimeout(query.bind(this, mode), 1500)
 
   process.nextTick(function () {
-    callback(null, true)
+    callback(null, true);
   })
 })
 
