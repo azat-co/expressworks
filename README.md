@@ -42,29 +42,26 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
 
 
 ```
-95  Azat Mardan
+105  Azat Mardan
+55  Azat Mardanov
 19  Christophe Porteneuve
 10  Tyler Moeller
+10  azat-co
+ 9  RamiroPinol
  8  Justin Porter
+ 8  Elias Meire
  6  billy3321
- 3  Harry Moreno
+ 4  Kohei TAKATA
  3  Charlotte Spencer
- 3  Kohei TAKATA
+ 3  Harry Moreno
+ 2  Austin Corso
  2  Julian Mazzitelli
+ 2  Kevin Jayanthan
  2  Robbie Holmes
  2  Shim Won
  2  Thomas Burette
- 2  Austin Corso
- 2  azat-co
- 2  Kevin Jayanthan
  2  intrueder
- 1  Timothy Gu
- 1  Trevor Whitney
- 1  Wojciech Gawronski
- 1  brownman
- 1  raj
  1  Alessandro Lensi
- 1  swisherb
  1  Alfredo Miranda
  1  Ayman Mahfouz
  1  Daniel Geier
@@ -81,6 +78,13 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
  1  Rich Trott
  1  Richard Kho
  1  Ryan Kois
+ 1  Timothy Gu
+ 1  Trevor Whitney
+ 1  Wojciech Gawronski
+ 1  brownman
+ 1  raj
+ 1  swisherb
+ 1  tdtsh
 ```
 
 Make a PR to see your name here. ;-)
@@ -161,7 +165,7 @@ If you would like to setup all node packages beforehand, you can complete this w
 
 ```bash
 $ npm install express@4.11.2
-$ npm install jade@1.9.2
+$ npm install pug@2.0.0-beta6
 $ npm install body-parser@1.12.0
 $ npm install stylus@0.50.0
 ```
@@ -188,9 +192,9 @@ Create an Express.js app that runs on localhost:3000, and outputs "Hello World!"
 
 `process.argv[2]` will be provided by expressworks to you, this is the port number.
 
-## Jade
+## Pug
 
-Create an Express.js app with a home page (/home) rendered by jade template engine, that shows current date (toDateString).
+Create an Express.js app with a home page (/home) rendered by pug template engine, that shows current date (toDateString).
 
 
 ## Good Old Form

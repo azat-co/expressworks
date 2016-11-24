@@ -8,28 +8,49 @@ expressworks
 ## 貢獻者
 
 ```
-    19  Christophe Porteneuve
-     3  Harry Moreno
-     3  Charlotte Spencer
-     2  Thomas Burette
-     2  intrueder
-     2  Kevin Jayanthan
-     1  Louis Pilfold
-     1  Rich Trott
-     1  Richard Kho
-     1  Ryan Kois
-     1  Timothy Gu
-     1  Wojciech Gawronski
-     1  brownman
-     1  Alessandro Lensi
-     1  raj
-     1  Ayman Mahfouz
-     1  Daniel Geier
-     1  Dylan Smith
-     1  Finn
-     1  Giuseppe
-     1  Jessie Shi
-     1  Jonny Arnold
+105  Azat Mardan
+55  Azat Mardanov
+19  Christophe Porteneuve
+10  Tyler Moeller
+10  azat-co
+ 9  RamiroPinol
+ 8  Justin Porter
+ 8  Elias Meire
+ 6  billy3321
+ 4  Kohei TAKATA
+ 3  Charlotte Spencer
+ 3  Harry Moreno
+ 2  Austin Corso
+ 2  Julian Mazzitelli
+ 2  Kevin Jayanthan
+ 2  Robbie Holmes
+ 2  Shim Won
+ 2  Thomas Burette
+ 2  intrueder
+ 1  Alessandro Lensi
+ 1  Alfredo Miranda
+ 1  Ayman Mahfouz
+ 1  Daniel Geier
+ 1  Dylan Smith
+ 1  Eddie Hsieh
+ 1  Finn
+ 1  Gabe Fernando
+ 1  Giuseppe
+ 1  Jessie Shi
+ 1  Johan Binard
+ 1  Jonny Arnold
+ 1  Kevin Kuhl
+ 1  Louis Pilfold
+ 1  Rich Trott
+ 1  Richard Kho
+ 1  Ryan Kois
+ 1  Timothy Gu
+ 1  Trevor Whitney
+ 1  Wojciech Gawronski
+ 1  brownman
+ 1  raj
+ 1  swisherb
+ 1  tdtsh
 ```
 
 發給我們一個 Pull Request，就可以看到您的名字出現在這裡。 ;-)
@@ -105,9 +126,9 @@ Usage
 
 expressworks 會將聆聽的 port 提供在程式的 `process.argv[2]` 。
 
-## Jade
+## Pug
 
-製作一個在 Home 頁面（/home）以 Jade 模版顯示特定資料（toDateString）的 Express.js app 。
+製作一個在 Home 頁面（/home）以 Pug 模版顯示特定資料（toDateString）的 Express.js app 。
 
 ## Good Old Form
 
