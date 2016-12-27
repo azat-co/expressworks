@@ -1,0 +1,27 @@
+{
+  "title": "Aprendendo Express.js e se divertindo!",
+  "subtitle": "\u001b[23mSelecione um exercício e pressione \u001b[3mEnter\u001b[23m para começar",
+  "common": {
+    "exercise": {
+      "fail": {
+        "connection": "Error ao conectar-se em {{{address}}}: {{{message}}}"
+      }
+    }
+  },
+  "exercises": {
+    "good_old_form": {
+      "source": "Express.js rocks!"
+    }
+  },
+  "exercise": {
+    "HELLO WORLD!": "OLÁ MUNDO!",
+    "JADE": "JADE",
+    "GOOD OLD FORM": "O BOM E VELHO FORMULÁRIO",
+    "PUG": "PUG",
+    "STATIC": "ESTÁTICO",
+    "STYLISH CSS": "ESTILIZANDO COM CSS",
+    "PARAM PAM PAM": "PARAM PAM PAM",
+    "WHAT'S IN QUERY": "O QUE ESTÁ NA QUERY?",
+    "JSON ME": "JSON ME"
+  }
+}
