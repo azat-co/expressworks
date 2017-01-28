@@ -1,7 +1,7 @@
 Forms are important. This exercise will teach you how to process the traditional (non-AJAX) web form.
 
 Write a route (`'/form'`) that processes HTML form input
-(`<form><input name="str"/></form>`) and prints the value of `str` backwards.
+(`<form><input name="str"/></form>`) and responds with the value of `str` backwards.
 
 To handle a POST request, use the `post()` method which is used the same way as `get()`:
 
