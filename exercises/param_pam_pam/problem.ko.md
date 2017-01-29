@@ -41,7 +41,7 @@ app.put('/path/:NAME', function(req, res){ /* ... */ });
 req.params.NAME
 ```
 
-## 보너스
+보너스
 
 URL 파라메터를 파싱할 때 req.param 미들웨어를 사용할 수 있습니다.
 
@@ -59,3 +59,5 @@ app.get('/message/:id', function (req, res, next) {
   next()
 })
 ```
+
+동영상: http://bit.ly/1jW1sBf.

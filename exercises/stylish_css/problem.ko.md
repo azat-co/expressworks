@@ -36,11 +36,19 @@ p
 
 ## 힌트
 
-`app.use` 사용해 Stylus 미들웨어를 적용할 수 있습니다.
+`app.use()` 사용해 Stylus 미들웨어를 적용할 수 있습니다.
 이렇게 하시면 됩니다.
 
 ```js
-app.use(require('stylus').middleware('/path/to/*.styl'))
+app.use(require('stylus').middleware('/path/to/folder'))
+```
+
+힌트: `__dirname`를 사용해 현재 실핼중인 파일의 절대 경로를 얻을 수 있습니다.
+
+폴더의 경로는 절대 경로일 필요는 없고 상대경로여도 됩니다.
+
+```js
+app.use(require('stylus').middleware('public'))
 ```
 
 "스태틱" 연습 문제에서 만든 것 이외에도, 정적 파일을 제공할 필요가 있습니다.
@@ -53,3 +61,5 @@ app.use(require('stylus').middleware('/path/to/*.styl'))
 ```sh
 $ npm install stylus
 ```
+
+동영상: http://bit.ly/1jW1sBf.

@@ -47,6 +47,8 @@ body-parser 모듈의 문서는 여기서 보실 수 있습니다.
 
   https://github.com/expressjs/body-parser
 
+동영상: http://bit.ly/1jW1sBf.
+
 ----------------------------
 
 ## 주의

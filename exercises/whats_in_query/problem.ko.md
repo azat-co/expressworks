@@ -23,3 +23,5 @@ req.query.NAME
 ```js
 res.send(object)
 ```
+
+동영상: http://bit.ly/1jW1sBf.

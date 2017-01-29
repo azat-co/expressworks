@@ -32,3 +32,5 @@ object = JSON.parse(string)
 ```
 
 `fs` 모듈을 설치할 필요는 없습니다. `fs`는 Node.js 플랫폼 핵심의 일부입니다.
+
+동영상: http://bit.ly/1jW1sBf.
