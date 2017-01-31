@@ -1,6 +1,6 @@
-자주 url 인코드된 URL 쿼리 문자열에서 데이터를 처리해야 합니다.
+우리는 URL 인코드된 URL 쿼리 문자열에서 데이터를 처리해야 할 때가 많습니다.
 
-쿼리 문자열에서 날짜를 추출하는 GET `/search` URL 경로를 작성하세요. 예를
+쿼리 문자열에서 데이터를 추출하는 GET `/search` URL 경로를 작성하세요. 예를
 들어 `?results=recent&include_tabs=true`가 오면 출력은 JSON 형식으로 돌려줘야
 합니다.
 
@@ -16,7 +16,7 @@ req.query.NAME
 
 ## 힌트
 
-쿼리 middleware는 Express.js 프레임워크의 일부입니다. 따로 설치할 필요가 없습니다.
+쿼리 미들웨어는 Express.js 프레임워크의 일부입니다. 따로 설치할 필요가 없습니다.
 
 출력 JSON은 이렇게 반환합니다.
 

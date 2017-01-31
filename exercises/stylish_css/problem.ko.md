@@ -1,13 +1,13 @@
 스타일 없는 HTML은 지루합니다. 이 연습 문제에서는 어떻게 Stylus를 Express에서 사용하는지 알려 드리겠습니다.
 
 "스태틱" 연습 문제에 Stylus 미들웨어를 사용해 HTML에 스타일을 넣어보겠습니다.
-Stylus <https://github.com/stylus/stylus>는 .styl 파일에서 .css 파일을
+Stylus(<https://github.com/stylus/stylus>)는 .styl 파일에서 .css 파일을
 생성합니다.
 
-해결책은 `GET` 요청을 처리하기 위해  `process.argv[2]`로 넘겨진 포트 번호를
+해결책은 `GET` 요청을 처리하기 위해 `process.argv[2]`로 넘겨진 포트 번호를
 사용해야 합니다. 요청 중에는 Stylus 미들웨어에서 자동으로 생성된 `main.css`도
-있어야 합니다. `index.html`와 `main.styl`은 `process.argv[3]`에서 찾아야 합니다.
-(같은 디렉터리에 있어야 합니다.)
+있어야 합니다. `index.html`와 `main.styl`은 `process.argv[3]`에서 찾을 수
+있습니다. (같은 디렉터리에 있어야 합니다.)
 
 그러고 싶다면 파일을 직접 만들어 사용해도 됩니다.
 
@@ -36,16 +36,16 @@ p
 
 ## 힌트
 
-`app.use()` 사용해 Stylus 미들웨어를 적용할 수 있습니다.
+`app.use()`를 사용해 Stylus 미들웨어를 적용할 수 있습니다.
 이렇게 하시면 됩니다.
 
 ```js
 app.use(require('stylus').middleware('/path/to/folder'))
 ```
 
-힌트: `__dirname`를 사용해 현재 실핼중인 파일의 절대 경로를 얻을 수 있습니다.
+힌트: `__dirname`을 사용해 현재 실행 중인 파일의 절대 경로를 얻을 수 있습니다.
 
-폴더의 경로는 절대 경로일 필요는 없고 상대경로여도 됩니다.
+폴더의 경로는 절대 경로가 아닌 상대 경로일 수도 있습니다.
 
 ```js
 app.use(require('stylus').middleware('public'))
