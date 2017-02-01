@@ -1,4 +1,4 @@
-이 연습문제는 URL 파라메터 사용법에 대한 것입니다.
+이 연습문제는 URL 파라미터 사용법에 대한 것입니다.
 예를 들어, /message/526aa677a8ceb64569c9d4fb가 있으면, 메시지의 아이디를
 추출하는 법을 알아야 합니다.
 
@@ -41,9 +41,9 @@ app.put('/path/:NAME', function(req, res){ /* ... */ });
 req.params.NAME
 ```
 
-## 보너스
+보너스
 
-URL 파라메터를 파싱할 때 req.param 미들웨어를 사용할 수 있습니다.
+URL 파라미터를 파싱할 때 req.param 미들웨어를 사용할 수 있습니다.
 
 예를 들어,
 
@@ -59,3 +59,5 @@ app.get('/message/:id', function (req, res, next) {
   next()
 })
 ```
+
+동영상: http://bit.ly/1jW1sBf.

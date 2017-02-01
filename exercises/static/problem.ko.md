@@ -24,14 +24,16 @@
 
 ## 힌트
 
-정적 미들웨어를 호출하는 방법은 다음과 같습니다.
+정적 폴더가 `public`이고 메인 프로젝트와 같은 폴더에 있다고 가정할 때, 정적 미들웨어를 호출하는 방법은 다음과 같습니다.
 
 ```js
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static('public'))
 ```
 
-이 연습 문제에서는 {appname}가 경로를 넘겨줍니다.
+이 연습 문제에서는 {appname}가 경로를 CLI 인자 `process.argv[3]`로 넘겨줍니다. OR 논리 조건을 만들어 CLI 인수 값을 사용하거나 없다면 `public` 폴더의 절대 경로를 사용하도록 할 수 있습니다. 경로는 `path.join()`으로 생성됩니다.
 
 ```js
 app.use(express.static(process.argv[3] || path.join(__dirname, 'public')))
 ```
+
+동영상: http://bit.ly/1jW1sBf.
