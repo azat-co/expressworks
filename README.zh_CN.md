@@ -174,7 +174,7 @@ expressworks 会将监听的 port 放在第一个参数 `process.argv[2]` 。
 
 ## Good Old Form
 
-编写一个可处理 HTML 表单输入 （<form><imput name="str"/></form>），并接着把字符串倒过来的路由（`/form`）
+编写一个可处理 HTML 表单输入 （`<form><input name="str"/></form>`），并接着把字符串倒过来的路由（`/form`）
 
 ## Static
 
