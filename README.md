@@ -200,7 +200,7 @@ Create an Express.js app with a home page (/home) rendered by pug template engin
 
 ## Good Old Form
 
-Write a route ('/form') that processes HTML form input (<form><imput name="str"/></form>) and prints backwards the str value.
+Write a route ('/form') that processes HTML form input (`<form><input name="str"/></form>`) and prints backwards the str value.
 
 ## Static
 
