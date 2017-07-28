@@ -142,7 +142,7 @@ Usage
 
 ```bash
 $ npm install express@4.11.2
-$ npm install jade@1.9.2
+$ npm install pug@2.0.0-beta6
 $ npm install body-parser@1.12.0
 $ npm install stylus@0.50.0
 ```
@@ -168,9 +168,9 @@ $ npm install stylus@0.50.0
 
 expressworks 会将监听的 port 放在第一个参数 `process.argv[2]` 。
 
-## Jade
+## Pug
 
-制作一个在 Home 页面（/home）以 Jade 模版显示特定信息（toDateString）的 Express.js app 。
+制作一个在 Home 页面（/home）以 Pug 模版显示特定信息（toDateString）的 Express.js app 。
 
 ## Good Old Form
 
