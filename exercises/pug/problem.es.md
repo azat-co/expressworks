@@ -2,7 +2,7 @@ Crea una app Express.js con una página home renderizada por el motor de plantil
 
 La página home debe responder a `/home`.
 
-La página debe mostrar la fecha actual usando 'new Date.toDateString()'.
+La página debe mostrar la fecha actual usando 'new Date().toDateString()'.
 
 Usamos 'toDateString()' para mostrar de forma sencilla la fecha sin la hora, en un formato fácil de leer.
 

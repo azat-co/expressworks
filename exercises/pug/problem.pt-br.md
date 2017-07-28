@@ -2,7 +2,7 @@ Crie uma aplicação Express.js com uma página inicial renderizada pelo Pug tem
 
 A página inicial deve responder ao caminho `/home`.
 
-A página deve mostrar a data atual usando 'new Date.toDateString()'.
+A página deve mostrar a data atual usando 'new Date().toDateString()'.
 
 Nós usamos 'toDateString()' para simpliicar o retorno da data sem o horário (human-readable format).
 

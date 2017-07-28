@@ -2,7 +2,7 @@ Crie uma aplicação Express.js como uma página inicial renderizadoe rendered p
 
 A página inicial deve responder a rota `/home`.
 
-A view deve mostrar a data atual usando 'new Date.toDateString()'.
+A view deve mostrar a data atual usando 'new Date().toDateString()'.
 
 Nós usamos 'toDateString()' para simplificar o retorno da data sem mostrar o horário, um formato usual para nós humanos. 
 

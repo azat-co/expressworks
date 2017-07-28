@@ -2,7 +2,7 @@ Pug 템플릿 엔진으로 렌더되는 홈페이지를 가지는 Express.js 앱
 
 홈페이지는 `/home`에 응답해야 합니다.
 
-뷰에서 'new Date.toDateString()'를 이용해 현재 시간을 표시해야 합니다.
+뷰에서 'new Date().toDateString()'를 이용해 현재 시간을 표시해야 합니다.
 
 'toDateString()'를 사용해 시간을 제외한, 사람이 읽을 수 있는 형식의 날짜를
 반환할 수 있습니다.
