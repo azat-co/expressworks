@@ -86,6 +86,7 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
  1  swisherb
  1  tdtsh
  1  Victor Hugo Rocha
+ 1  Bradley Hanson
 ```
 
 Make a PR to see your name here. ;-)
