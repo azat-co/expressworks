@@ -22,6 +22,8 @@ require('crypto')
   .digest('hex')
 ```
 
+Your solution must listen on the port number supplied by `process.argv[2]`.
+
 -----------------------------
 
 ## HINTS
