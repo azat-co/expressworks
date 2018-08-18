@@ -22,7 +22,7 @@ Middleware 提供许多不同的功能如记录（logging）、提供静态文�
 Express.js 可以用 `body-parser` 模块的 `urlencoded()` 解析 `x-www-form-urlencoded` 请求的内容。
 
 ```js
-var bodyparser = require('body-parser')
+const bodyparser = require('body-parser')
 app.use(bodyparser.urlencoded({extended: false}))
 ```
 

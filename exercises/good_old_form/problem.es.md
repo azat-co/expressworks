@@ -24,7 +24,7 @@ Para parsear el contenido de las peticiones `x-www-form-urlencoded`, Espress.js 
 el middleware `urlencoded()` del módulo `body-parser`.
 
 ```js
-var bodyparser = require('body-parser')
+const bodyparser = require('body-parser')
 app.use(bodyparser.urlencoded({extended: false}))
 ```
 

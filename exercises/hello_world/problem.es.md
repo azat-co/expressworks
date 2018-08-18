@@ -23,8 +23,8 @@ Así es como podemos crear una aplicación de Express.js en el puerto 3000 que
 responde con una cadena de caracteres (string) en `'/'`:
 
 ```js
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 app.get('/', function(req, res) {
   res.end('Hello World!')
 })

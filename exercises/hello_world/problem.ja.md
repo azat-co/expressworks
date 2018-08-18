@@ -19,8 +19,8 @@ Express.jsのアプリケーションを3000番ポートで作成する方法は
 `'/'` にアクセスが来た際に文字列を返します。
 
 ```js
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 app.get('/', function(req, res) {
   res.end('Hello World!')
 })
