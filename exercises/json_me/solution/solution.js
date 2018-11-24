@@ -1,9 +1,9 @@
-var express = require('express')
-var app = express()
-var fs = require('fs')
+const express = require('express')
+const app = express()
+const fs = require('fs')
 
 app.get('/books', function(req, res){
-  var filename = process.argv[3]
+  const filename = process.argv[3]
   fs.readFile(filename, function(e, data) {
     if (e) return res.sendStatus(500)
     try {

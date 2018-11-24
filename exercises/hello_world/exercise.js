@@ -1,10 +1,11 @@
-var through2      = require('through2')
-  , superagent    = require('superagent')
-  , exercise      = require('workshopper-exercise')()
-  , filecheck     = require('workshopper-exercise/filecheck')
-  , execute       = require('workshopper-exercise/execute')
-  , comparestdout = require('workshopper-exercise/comparestdout')
-  , rndport       = require('../../lib/rndport');
+const through2      = require('through2')
+    , superagent    = require('superagent')
+    , filecheck     = require('workshopper-exercise/filecheck')
+    , execute       = require('workshopper-exercise/execute')
+    , comparestdout = require('workshopper-exercise/comparestdout')
+    , rndport       = require('../../lib/rndport')
+
+let exercise        = require('workshopper-exercise')()
 
 // checks that the submission file actually exists
 exercise = filecheck(exercise)
@@ -47,10 +48,10 @@ exercise = comparestdout(exercise)
 // delayed for 500ms to wait for servers to start so we can start
 // playing with them
 function query (mode) {
-  var exercise = this
+  const exercise = this
 
   function connect (port, stream) {
-    var url = 'http://localhost:' + port + '/home'
+    const url = 'http://localhost:' + port + '/home'
 
     superagent.get(url)
       .on('error', function (err) {
