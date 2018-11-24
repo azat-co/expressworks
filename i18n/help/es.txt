@@ -1,0 +1,17 @@
+Bienvenido a ExpressWorks - un taller para el framework Express.js.
+Este taller está basado en workshopper e inspirado por stream-adventure, de @substack y @maxogden
+
+Documentación del API:
+
+http://expressjs.com/es/api.html
+
+Guía de Express.js:
+
+http://expressjsguide.com/
+
+
+¿Problemas? ¿Sugerencias? ¿Retroalimentación?
+
+https://github.com/azat-co/expressworks/issues
+
+Otros talleres geniales: https://nodeschool.io/es/
