@@ -21,7 +21,7 @@ Express.jsはあなたが作成しているウェブサーバーに新たな機�
 Express.jsは `body-parser` モジュールの `urlencoded()` ミドルウェアを使用することができます。
 
 ```js
-var bodyparser = require('body-parser')
+const bodyparser = require('body-parser')
 app.use(bodyparser.urlencoded({extended: false}))
 ```
 

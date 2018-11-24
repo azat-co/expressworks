@@ -21,7 +21,7 @@ Para parsear `x-www-form-urlencoded` as requisições bodies, Express.js pode us
 do módulo `body-parser`.
 
 ```js
-var bodyparser = require('body-parser')
+const bodyparser = require('body-parser')
 app.use(bodyparser.urlencoded({extended: false}))
 ```
 

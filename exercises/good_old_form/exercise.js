@@ -1,11 +1,12 @@
-var qs            = require('querystring')
-  , through2      = require('through2')
-  , superagent    = require('superagent')
-  , exercise      = require('workshopper-exercise')()
-  , filecheck     = require('workshopper-exercise/filecheck')
-  , execute       = require('workshopper-exercise/execute')
-  , comparestdout = require('workshopper-exercise/comparestdout')
-  , rndport       = require('../../lib/rndport');
+const qs            = require('querystring')
+    , through2      = require('through2')
+    , superagent    = require('superagent')
+    , filecheck     = require('workshopper-exercise/filecheck')
+    , execute       = require('workshopper-exercise/execute')
+    , comparestdout = require('workshopper-exercise/comparestdout')
+    , rndport       = require('../../lib/rndport')
+
+let exercise        = require('workshopper-exercise')()
 
 // checks that the submission file actually exists
 exercise = filecheck(exercise)
@@ -48,11 +49,11 @@ exercise = comparestdout(exercise)
 // delayed for 500ms to wait for servers to start so we can start
 // playing with them
 function query (mode) {
-  var exercise = this
+  const exercise = this
 
   function connect (port, stream) {
-    var url = 'http://localhost:' + port + '/form'
-    var text = exercise.__('exercises.good_old_form.source').split('').reverse().join('');
+    const url = 'http://localhost:' + port + '/form'
+    const text = exercise.__('exercises.good_old_form.source').split('').reverse().join('');
 
     superagent
       .post(url)

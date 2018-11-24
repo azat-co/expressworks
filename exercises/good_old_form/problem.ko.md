@@ -23,7 +23,7 @@ Express.js에서 웹 서버에 추가 기능을 넣으려면 미들웨어를 사
 모듈에 있는 `urlencoded()` 미들웨어를 사용할 수 있습니다.
 
 ```js
-var bodyparser = require('body-parser')
+const bodyparser = require('body-parser')
 app.use(bodyparser.urlencoded({extended: false}))
 ```
 

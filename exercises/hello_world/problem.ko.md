@@ -19,8 +19,8 @@ $ npm install express --save
 3000 포트에서 `'/'`에 응답하는 Express.js 앱을 만드는 방법은 다음과 같습니다.
 
 ```js
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 app.get('/', function(req, res) {
   res.end('Hello World!')
 })
