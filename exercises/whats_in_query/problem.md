@@ -12,6 +12,8 @@ In Express.js, to extract query string parameters, we can use (inside the reques
 req.query.NAME
 ```
 
+Your solution must listen on the port number supplied by `process.argv[2]`.
+
 -----------------------------
 
 ## HINTS
