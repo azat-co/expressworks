@@ -19,8 +19,8 @@ $ npm install express --save
 Assim é como nós criamos uma aplicação Express.js que escuta a porta 3000 e retorna uma string quando acessamos o caminho `'/'`:
 
 ```js
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 app.get('/', function(req, res) {
   res.end('Hello World!')
 })

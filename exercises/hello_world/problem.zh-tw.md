@@ -9,8 +9,8 @@
 建立一個聆聽在 port 3000 ，並回應字串在「`/`」的 Express.js app 的程式碼如下：
 
 ```js
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 app.get('/', function(req, res) {
   res.end('Hello World!')
 })

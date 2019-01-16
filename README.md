@@ -32,6 +32,7 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
 ## Languages
 
 * English
+* Spanish
 * French
 * Simplified Chinese
 * Traditional Chinese
@@ -39,7 +40,6 @@ You might want to download [the free Express.js cheatsheet](https://gumroad.com/
 * Japanese
 
 ## Contributors
-
 
 ```
 117  Azat Mardan

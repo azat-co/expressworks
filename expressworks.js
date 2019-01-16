@@ -8,7 +8,7 @@ const help = path.join(__dirname, './i18n/help/{lang}.txt')
 
 const expressworks = Workshopper({
   appDir: __dirname,
-  languages: ['en', 'fr', 'ko', 'zh-tw', 'ja','zh-cn', 'pt-br'],
+  languages: ['en', 'es', 'fr', 'ko', 'zh-tw', 'ja','zh-cn', 'pt-br'],
   footer: require('workshopper-adventure/default/footer'),
   help: function (i18n, lang) {
     return [usage, help].map(function (file) {

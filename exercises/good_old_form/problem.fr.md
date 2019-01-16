@@ -30,7 +30,7 @@ formulaires, Express.js peut recourir au middleware `urlencoded()` fourni par
 le module `body-parser`.
 
 ```js
-var bodyParser = require('body-parser')
+const bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({extended: false}))
 ```
 

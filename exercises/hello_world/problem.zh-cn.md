@@ -9,8 +9,8 @@
 建立一个监听 port 3000 ，并在「`/`」返回字符串的 Express.js app 的程序代码如下：
 
 ```js
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 app.get('/', function(req, res) {
   res.end('Hello World!')
 })
