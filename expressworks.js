@@ -1,15 +1,24 @@
-#!/usr/bin/env node
+const fs = require('fs')
+const path = require('path')
+const Workshopper = require('workshopper-adventure')
+const usage = require('workshopper-adventure/default/help').file[0]
+const menu = require('./exercises/menu.json')
 
-const Workshopper = require('workshopper')
-    , path        = require('path')
+const help = path.join(__dirname, './i18n/help/{lang}.txt')
 
-function fpath (f) {
-  return path.join(__dirname, f)
-}
-
-Workshopper({
-    name      : 'expressworks'
-  , appDir    : __dirname
-  , languages : ['en', 'es', 'fr', 'ko', 'zh-tw', 'ja','zh-cn', 'pt-br']
-  , helpFile  : fpath('./i18n/help/{lang}.txt')
+const expressworks = Workshopper({
+  appDir: __dirname,
+  languages: ['en', 'es', 'fr', 'ko', 'zh-tw', 'ja','zh-cn', 'pt-br'],
+  footer: require('workshopper-adventure/default/footer'),
+  help: function (i18n, lang) {
+    return [usage, help].map(function (file) {
+      file = file.replace(/\{?\{lang\}?\}/g, lang)
+      const content = fs.readFileSync(file)
+      return '---\n' + content
+    })
+  }
 })
+
+expressworks.addAll(menu)
+
+module.exports = expressworks
