@@ -103,15 +103,15 @@ PS: via `$ git shortlog -n -s`. Please add yourself to the list when making a pu
 Recommended global installation:
 
 ```bash
-$ npm install -g expressworks
-$ expressworks
+npm install -g expressworks
+expressworks
 ```
 
 If you see errors, try:
 
 ```bash
-$ sudo npm install -g expressworks
-$ expressworks
+sudo npm install -g expressworks
+expressworks
 ```
 
 ## Local Installation (Advanced)
@@ -119,30 +119,30 @@ $ expressworks
 Run & install locally:
 
 ```bash
-$ mkdir node_modules
-$ npm install expressworks
-$ cd node_modules/expressworks
-$ node expressworks
+mkdir node_modules
+npm install expressworks
+cd node_modules/expressworks
+node expressworks
 ```
 
 Optional step that gives you the global command (`expressworks`) in the Terminal/command prompt:
 
 ```
-$ npm link
-$ expressworks
+npm link
+expressworks
 ```
 
 # Usage
 
 ```
-$ expressworks
+expressworks
 ```
 
 *Note*: ExpressWorks depends on a local copy of Express being available in your project folder.  To do the exercises, make sure to install the Express.js with
 
 ```
-$ npm init
-$ npm install express@4.11.2
+npm init
+npm install express@4.11.2
 ```
 
 See Offline Setup for more required dependencies.
@@ -171,10 +171,10 @@ Usage
 If you would like to setup all node packages beforehand, you can complete this workshop offline. Here are all the modules to install with exact versions that this workshop supports:
 
 ```bash
-$ npm install express@4.11.2
-$ npm install pug@2.0.0-beta6
-$ npm install body-parser@1.12.0
-$ npm install stylus@0.50.0
+npm install express@4.11.2
+npm install pug@2.0.0-beta6
+npm install body-parser@1.12.0
+npm install stylus@0.50.0
 ```
 
 Note: You need to have `node_modules` or `packagen.json` in your project folder before installing dependencies. Run `$ mkdir node_modules` or `$ npm init` to create one of them.
