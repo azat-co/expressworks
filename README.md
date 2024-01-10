@@ -17,16 +17,11 @@ ExpressWorks will provide you with tasks and hints. You write the solutions to t
 
 
 
-This workshop is brought to you by the author of [Pro Express.js](http://proexpressjs.com) (Apress 2014) [Azat Mardan](http://azat.co).
-
-[![](https://raw.github.com/azat-co/expressworks/master/images/cover.jpg)](http://proexpressjs.com)
-
-
+This workshop is brought to you by  [Azat Mardan](http://azat.co), the author of Practical Node.js ([free on GitHub](https://github.com/azat-co/practicalnode))
 
 ## Cheatsheet
 
-You might want to download [the free Express.js cheatsheet](https://gumroad.com/l/NQiQ/git-874E6FB4) before embarking on a journey, or [view it online](https://gumroad.com/l/NQiQ/git-874E6FB4).
-
+You might want to download the free Express.js cheatsheet in [PDF](https://github.com/azat-co/cheatsheets/tree/master/pdfs/express4-cheatsheet-webapplog.pdf).
 
 
 ## Languages
@@ -188,7 +183,8 @@ If you want to reset the list of completed tasks, clean the `~/.config/expresswo
 
 # More Information
 
-Check out [Express.js Guide](http://expressjsguide.com), [Pro Express.js](http://proexpressjs.com) and [FREE Express.js cheatsheet](https://gumroad.com/l/NQiQ/git-874E6FB4).
+Check out [Practical Node.js ([free on GitHub](https://github.com/azat-co/practicalnode)) and free Express.js cheatsheet in [PDF](https://github.com/azat-co/cheatsheets/tree/master/pdfs/express4-cheatsheet-webapplog.pdf).
+
 
 # Steps
 
